@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index test should test something 1`] = `
+<div
+  className="sc-bdVaJa hhNaSr"
+>
+  Hello world!
+</div>
+`;
