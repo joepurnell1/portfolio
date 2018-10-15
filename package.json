@@ -9,10 +9,7 @@
     "test": "jest",
     "lint": "node_modules/.bin/eslint .",
     "lintfix": "node_modules/.bin/eslint . --fix",
-    "clean": "rm -rf node_modules package-lock.json",
-    "precommit": "npm run lint",
-    "prepush": "npm test"
-
+    "clean": "rm -rf node_modules package-lock.json"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
@@ -65,5 +62,11 @@
     "setupFiles": [
       "<rootDir>/config/loadershim.js"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm test"
+    }
   }
 }
