@@ -1,7 +1,6 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from '../style/theme';
-import Link from '../components/atoms/link';
 
 const StyledDiv = styled.div`
   color: #BADA55;
