@@ -7,6 +7,10 @@ const colours = {
 };
 
 export default {
+  Header: {
+    background: colours.white,
+    accent: colours.accentPink,
+  },
   Link: {
     background: colours.white,
     accent: colours.accentPink,

@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
-  "license": "MIT",
+  "name": "portfolio-a-la-joe-purnell",
+  "description": "Handy dandy portfolio using gatsby",
+  "author": "Joe Purnell",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",

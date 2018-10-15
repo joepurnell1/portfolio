@@ -1,15 +1,13 @@
 import React from 'react';
-import styled, { ThemeProvider } from 'styled-components';
-import theme from '../style/theme';
+import styled from 'styled-components';
+import Layout from '../components/layout';
 
 const StyledDiv = styled.div`
   color: #BADA55;
 `;
 
 export default () => (
-  <ThemeProvider theme={theme}>
-    <div>
-      <StyledDiv>Hello world!</StyledDiv>
-    </div>
-  </ThemeProvider>
+  <Layout headerLink="www.google.com">
+    <StyledDiv>Hello world!</StyledDiv>
+  </Layout>
 );

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout should render default as expected 1`] = `
+<div>
+  <div
+    className="sc-htpNat jpQhNt"
+  >
+    <a
+      className="sc-bdVaJa isEwPn"
+      href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
+    >
+      Say Hi
+    </a>
+  </div>
+  I never really knew that she could dance like this
+</div>
+`;
+
+exports[`Layout should render inverted as expected 1`] = `
+<div>
+  <div
+    className="sc-htpNat bRZVYj"
+  >
+    <a
+      className="sc-bdVaJa cYDfzC"
+      href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
+    >
+      Say Hi
+    </a>
+  </div>
+  She makes a man wants to speak Spanish
+</div>
+`;
