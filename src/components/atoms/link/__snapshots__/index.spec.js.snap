@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`link component should render default as expected 1`] = `
+<a
+  className="sc-bdVaJa cVqcJE"
+  href="LinkUrl"
+>
+  We will, we will
+</a>
+`;
+
+exports[`link component should render inverted as expected 1`] = `
+<a
+  className="sc-bdVaJa JsCiN"
+  href="LinkUrl"
+>
+  Link you, Link you
+</a>
+`;

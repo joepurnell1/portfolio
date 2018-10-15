@@ -19,3 +19,7 @@
 
 ### Just a test
 `npm run test`
+
+### Scrub-a-dub-dub
+Removes the node modules and package lock ready for a fresh install
+`npm run clean`
