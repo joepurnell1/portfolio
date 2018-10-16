@@ -26,7 +26,7 @@ describe('Square Flex Item component', () => {
 
   it('should render with custom box shadow as expected', () => {
     const render = renderer.create(
-      <SquareFlexGridItem size="300px">I don&apost want my next album sounding all Usher-y</SquareFlexGridItem>,
+      <SquareFlexGridItem boxShadow="0px 4px 12px rgba(0, 0, 0, 0.50)">I don&apost want my next album sounding all Usher-y</SquareFlexGridItem>,
     );
     expect(render.toJSON()).toMatchSnapshot();
   });
