@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`coloured container component should render default as expected 1`] = `
+<div
+  className="sc-bwzfXH uTxCW sc-bdVaJa gbwpMQ"
+>
+  When Im watchin my TV and a man comes on and tells me
+</div>
+`;
+
+exports[`coloured container component should with given colour as expected 1`] = `
+<div
+  className="sc-bwzfXH uTxCW sc-bdVaJa fXjPLb"
+>
+  How white my shirts can be
+</div>
+`;

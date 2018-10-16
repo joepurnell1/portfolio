@@ -1,7 +1,7 @@
-import { number, node } from 'prop-types';
+import { string, node } from 'prop-types';
 
 export default {
-  maxWidth: number,
+  maxWidth: string,
   children: node.isRequired,
 };
 

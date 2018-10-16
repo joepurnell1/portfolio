@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flex container component should render default as expected 1`] = `
+<div
+  className="sc-bdVaJa hEFZfD"
+>
+  Will you stand above me
+</div>
+`;
+
+exports[`flex container component should render with given maxWidth as expected 1`] = `
+<div
+  className="sc-bdVaJa fkMsVG"
+>
+  Look my way, never love me
+</div>
+`;

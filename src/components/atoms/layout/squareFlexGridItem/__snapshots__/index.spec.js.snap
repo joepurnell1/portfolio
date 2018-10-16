@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square Flex Item component should render default as expected 1`] = `
+<div
+  className="sc-bdVaJa jnbCuE"
+  size="100px"
+>
+  Today I missed my work out
+</div>
+`;
+
+exports[`Square Flex Item component should render with custom box shadow as expected 1`] = `
+<div
+  className="sc-bdVaJa iFlcxP"
+  size="300px"
+>
+  I don&apost want my next album sounding all Usher-y
+</div>
+`;
+
+exports[`Square Flex Item component should render with custom margin as expected 1`] = `
+<div
+  className="sc-bdVaJa dTSNHn"
+  size="100px"
+>
+  But I must confess, I must confess
+</div>
+`;
+
+exports[`Square Flex Item component should render with focussed prop as expected 1`] = `
+<div
+  className="sc-bdVaJa dwOKVq"
+  size="100px"
+>
+  But it worked out
+</div>
+`;
+
+exports[`Square Flex Item component should render with given size expected 1`] = `
+<div
+  className="sc-bdVaJa iFlcxP"
+  size="300px"
+>
+  I know that my girls trust is a luxury
+</div>
+`;
