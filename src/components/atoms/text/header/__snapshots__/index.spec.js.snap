@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square Flex Item component should render default as expected 1`] = `
+<h1
+  className="sc-bdVaJa kVywnm"
+>
+  What is love?
+</h1>
+`;
+
+exports[`Square Flex Item component should render with custom colour as expected 1`] = `
+<h1
+  className="sc-bdVaJa bxdJdy"
+>
+  Baby don&apost hurt me
+</h1>
+`;

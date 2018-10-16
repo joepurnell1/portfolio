@@ -11,8 +11,8 @@ exports[`Square Flex Item component should render default as expected 1`] = `
 
 exports[`Square Flex Item component should render with custom box shadow as expected 1`] = `
 <div
-  className="sc-bdVaJa iFlcxP"
-  size="300px"
+  className="sc-bdVaJa EZUpV"
+  size="100px"
 >
   I don&apost want my next album sounding all Usher-y
 </div>
