@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tagline component should render default as expected 1`] = `
+<h4
+  className="sc-bdVaJa jpomfb"
+>
+  Return of the Mac, get em
+</h4>
+`;
+
+exports[`Tagline component should render with custom colour as expected 1`] = `
+<h4
+  className="sc-bdVaJa jpomfb"
+>
+  What it is What it does What it is What it isn&apost
+</h4>
+`;

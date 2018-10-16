@@ -1,18 +1,18 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Header from './index';
+import Tagline from './index';
 
-describe('Header component', () => {
+describe('Tagline component', () => {
   it('should render default as expected', () => {
     const render = renderer.create(
-      <Header>What is love?</Header>,
+      <Tagline>Return of the Mac, get em</Tagline>,
     );
     expect(render.toJSON()).toMatchSnapshot();
   });
 
   it('should render with custom colour as expected', () => {
     const render = renderer.create(
-      <Header colour="#F00B42">Baby don&apost hurt me</Header>,
+      <Tagline colour="#D06">What it is What it does What it is What it isn&apost</Tagline>,
     );
     expect(render.toJSON()).toMatchSnapshot();
   });
