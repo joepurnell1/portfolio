@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`image component should render default as expected 1`] = `
+<img
+  alt="The Pixies"
+  className="sc-bdVaJa bEeBlh"
+  height="42px"
+  src="https://static.stereogum.com/uploads/2012/09/pixies-608x451.jpeg"
+  width="42px"
+/>
+`;
+
+exports[`image component should render with custom sizes as expected 1`] = `
+<img
+  alt="The Pixies"
+  className="sc-bdVaJa bWCENx"
+  height="600px"
+  src="https://ksassets.timeincuk.net/wp/uploads/sites/55/2015/08/2013PixiesEM051213.hero_-1-920x515.jpg"
+  width="300px"
+/>
+`;
