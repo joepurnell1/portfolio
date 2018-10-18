@@ -2,12 +2,12 @@ import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { string, node, bool } from 'prop-types';
 import Link from './atoms/link';
-import theme from '../style/theme';
+import theme from '../styles/theme';
+import '../styles/global.css';
 
 const Container = styled.div`
   background: ${props => (props.invert ? props.theme.Header.accent : props.theme.Header.background)};
   margin-bottom: 6px;
-  margin-right: 8px;
   padding-bottom: 4px;
   display: flex;
   justify-content: flex-end;

@@ -7,7 +7,7 @@ const StyledDiv = styled.div`
 `;
 
 export default () => (
-  <Layout headerLink="www.google.com">
+  <Layout headerLink="www.google.com" invert>
     <StyledDiv>Hello world!</StyledDiv>
   </Layout>
 );
