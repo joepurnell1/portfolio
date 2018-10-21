@@ -6,6 +6,8 @@ import HeaderText from '../../atoms/text/header';
 import TaglineText from '../../atoms/text/tagline';
 import SwellingImageLink from '../../molecules/swellingImageLink';
 import Github from '../../../images/social/github.svg';
+import Twitter from '../../../images/social/twitter.svg';
+import Linkedin from '../../../images/social/linkedin.svg';
 
 const LinkBand = styled('div')`
   min-width: 300px;
@@ -26,8 +28,19 @@ const ColouredInfoBand = ({ theme, title, subtitle }) => (
     <TaglineText colour={theme.ColouredInfoBand.textColour}>{subtitle}</TaglineText>
     <LinkBand>
       <SwellingLink
+        link="https://github.com/joepurnell1"
         imageSource={Github}
         imageAlt="github"
+      />
+      <SwellingLink
+        link="https://twitter.com/joepurnell8?lang=en"
+        imageSource={Twitter}
+        imageAlt="twitter"
+      />
+      <SwellingLink
+        link="https://www.linkedin.com/in/joe-purnell-7294295b/"
+        imageSource={Linkedin}
+        imageAlt="linkedin"
       />
     </LinkBand>
   </ColouredContainer>
