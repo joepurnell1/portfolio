@@ -2,7 +2,7 @@
 
 exports[`link component should render default as expected 1`] = `
 <a
-  className="sc-bdVaJa gbhiHC"
+  className="sc-bdVaJa cVqcJE"
   href="LinkUrl"
 >
   We will, we will
@@ -11,7 +11,7 @@ exports[`link component should render default as expected 1`] = `
 
 exports[`link component should render inverted as expected 1`] = `
 <a
-  className="sc-bdVaJa fEjSQV"
+  className="sc-bdVaJa JsCiN"
   href="LinkUrl"
 >
   Link you, Link you

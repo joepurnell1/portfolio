@@ -14,7 +14,7 @@ const StyledLink = styled('a')`
   text-decoration: none;
 
   &:hover {
-    background: ${props => (props.invert ? props.theme.Link.background : props.theme.LGlobalaccent)};
+    background: ${props => (props.invert ? props.theme.Global.background : props.theme.Link.accent)};
     color: ${props => (props.invert ? props.theme.Link.accent : props.theme.Global.background)};
     border-color: ${props => (props.invert ? props.theme.Link.accent : props.theme.Global.background)};
   }

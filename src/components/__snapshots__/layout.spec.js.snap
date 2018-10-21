@@ -6,7 +6,7 @@ exports[`Layout should render default as expected 1`] = `
     className="sc-htpNat ezHVmo"
   >
     <a
-      className="sc-bdVaJa ddjIOj"
+      className="sc-bdVaJa isEwPn"
       href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
     >
       Say Hi
@@ -22,7 +22,7 @@ exports[`Layout should render inverted as expected 1`] = `
     className="sc-htpNat hSsnMj"
   >
     <a
-      className="sc-bdVaJa jUmgka"
+      className="sc-bdVaJa cYDfzC"
       href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
     >
       Say Hi
