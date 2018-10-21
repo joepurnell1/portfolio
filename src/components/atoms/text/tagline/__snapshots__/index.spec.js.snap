@@ -2,7 +2,7 @@
 
 exports[`Tagline component should render default as expected 1`] = `
 <h4
-  className="sc-bdVaJa jpomfb"
+  className="sc-bdVaJa hgtNhZ"
 >
   Return of the Mac, get em
 </h4>
@@ -10,7 +10,7 @@ exports[`Tagline component should render default as expected 1`] = `
 
 exports[`Tagline component should render with custom colour as expected 1`] = `
 <h4
-  className="sc-bdVaJa jpomfb"
+  className="sc-bdVaJa dtRkwm"
 >
   What it is What it does What it is What it isn&apost
 </h4>

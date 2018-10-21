@@ -1,13 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
 import Layout from '../components/layout';
+import Homepage from '../components/templates/homepage';
 
-const StyledDiv = styled.div`
-  color: #BADA55;
-`;
-
-export default () => (
-  <Layout headerLink="www.google.com" invert>
-    <StyledDiv>Hello world!</StyledDiv>
+const Page = () => (
+  <Layout headerLink="www.google.com">
+    <Homepage />
   </Layout>
 );
+
+export default Page;

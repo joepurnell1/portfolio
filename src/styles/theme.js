@@ -7,12 +7,20 @@ const colours = {
 };
 
 export default {
-  Header: {
+  Global: {
     background: colours.white,
+  },
+  Header: {
     accent: colours.accentPink,
   },
   Link: {
-    background: colours.white,
     accent: colours.accentPink,
+  },
+  Homepage: {
+    highlightedBackground: colours.accentPink,
+  },
+  ColouredInfoBand: {
+    backgroundColour: colours.accentPink,
+    textColour: colours.white,
   },
 };

@@ -6,11 +6,11 @@ import theme from '../styles/theme';
 import '../styles/global.css';
 
 const Container = styled.div`
-  background: ${props => (props.invert ? props.theme.Header.accent : props.theme.Header.background)};
-  margin-bottom: 6px;
-  padding-bottom: 4px;
+  background: ${props => (props.invert ? props.theme.Header.accent : props.theme.Global.background)};
   display: flex;
   justify-content: flex-end;
+  padding: 4px;
+  padding-right: 16px;
 `;
 
 const StyledLink = styled(Link)`

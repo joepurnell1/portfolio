@@ -6,6 +6,8 @@ import Link from './index';
 const theme = {
   Link: {
     accent: '#BADA55',
+  },
+  Global: {
     background: '#1A1A1A',
   },
 };

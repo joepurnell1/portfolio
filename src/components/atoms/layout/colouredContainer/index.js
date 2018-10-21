@@ -5,6 +5,9 @@ const ColouredContainer = styled('div')`
   background: ${props => props.backgroundColour};
   display: flex;
   min-height: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `;
 
 ColouredContainer.propTypes = propTypes;

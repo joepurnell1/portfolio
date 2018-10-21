@@ -3,10 +3,10 @@
 exports[`Layout should render default as expected 1`] = `
 <div>
   <div
-    className="sc-htpNat gRYANr"
+    className="sc-htpNat ezHVmo"
   >
     <a
-      className="sc-bdVaJa isEwPn"
+      className="sc-bdVaJa ddjIOj"
       href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
     >
       Say Hi
@@ -19,10 +19,10 @@ exports[`Layout should render default as expected 1`] = `
 exports[`Layout should render inverted as expected 1`] = `
 <div>
   <div
-    className="sc-htpNat dlSWXb"
+    className="sc-htpNat hSsnMj"
   >
     <a
-      className="sc-bdVaJa cYDfzC"
+      className="sc-bdVaJa jUmgka"
       href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
     >
       Say Hi
