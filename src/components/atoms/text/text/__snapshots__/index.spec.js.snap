@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text component should render default as expected 1`] = `
+<p
+  className="sc-bdVaJa kztLhk"
+>
+  Blurred vision and the hobble of thick prose
+</p>
+`;
+
+exports[`Text component should render with custom colour as expected 1`] = `
+<p
+  className="sc-bdVaJa kztLhk"
+>
+  Why empower misogyny while violence towards women grows?
+</p>
+`;

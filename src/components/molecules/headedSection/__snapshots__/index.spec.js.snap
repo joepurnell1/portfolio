@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`headed section component should render default as expected 1`] = `
+<div
+  className="sc-bxivhb jBrEJL sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
+>
+  <h1
+    className="sc-htpNat Wqnyr"
+  >
+    Rhymes like ours could never be stopped
+  </h1>
+  <div
+    className="sc-bxivhb jBrEJL sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
+  >
+    <h1
+      className="sc-htpNat Wqnyr"
+    >
+      
+    </h1>
+    Party rockers, non-stoppers, and our names are def
+  </div>
+</div>
+`;

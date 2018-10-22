@@ -9,6 +9,7 @@ const colours = {
 export default {
   Global: {
     background: colours.white,
+    textColour: colours.darkestBlue,
   },
   Header: {
     accent: colours.accentPink,
@@ -22,5 +23,8 @@ export default {
   ColouredInfoBand: {
     backgroundColour: colours.accentPink,
     textColour: colours.white,
+  },
+  HeadedSection: {
+    headerText: colours.accentPink,
   },
 };
