@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageWithText component should render default as expected 1`] = `
+<div
+  className="sc-bxivhb kIRBcn"
+>
+  <img
+    alt="LegendHasIt"
+    className="sc-bdVaJa PJqeX"
+    height="50px"
+    src="http://s3.amazonaws.com/factmag-images/wp-content/uploads/2016/12/131223-run-jewels-christmas-miracle-616x440.jpg"
+    width="50px"
+  />
+  <p
+    className="sc-ifAKCX jJhMeM sc-htpNat fgXwtp"
+  >
+    I got a unicorn horn for a (Stop)
+  </p>
+</div>
+`;

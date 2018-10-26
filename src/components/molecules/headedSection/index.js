@@ -7,6 +7,7 @@ import Header from '../../atoms/text/header';
 const Container = styled(ColouredContainer)`
   justify-content: flex-start;
   padding: 50px 0 0 0;
+  min-height: 250px;
 `;
 
 const HeadedSection = ({ theme, sectionTitle, children }) => (

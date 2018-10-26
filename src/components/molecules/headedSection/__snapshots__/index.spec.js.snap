@@ -2,7 +2,7 @@
 
 exports[`headed section component should render default as expected 1`] = `
 <div
-  className="sc-bxivhb jBrEJL sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
+  className="sc-bxivhb jMTuVJ sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
 >
   <h1
     className="sc-htpNat Wqnyr"
@@ -10,7 +10,7 @@ exports[`headed section component should render default as expected 1`] = `
     Rhymes like ours could never be stopped
   </h1>
   <div
-    className="sc-bxivhb jBrEJL sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
+    className="sc-bxivhb jMTuVJ sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
   >
     <h1
       className="sc-htpNat Wqnyr"
