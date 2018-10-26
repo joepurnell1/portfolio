@@ -4,6 +4,7 @@ import propTypes, { defaultProps } from './propTypes';
 
 const Container = styled('div')`
   box-shadow: ${p => p.boxShadow};
+  border-radius: 8px;
   margin: ${p => p.margin};
   align-items: center;
   justify-content: center;

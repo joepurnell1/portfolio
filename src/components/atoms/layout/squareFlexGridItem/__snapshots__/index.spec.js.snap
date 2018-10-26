@@ -2,7 +2,7 @@
 
 exports[`Square Flex Item component should render default as expected 1`] = `
 <div
-  className="sc-bdVaJa jnbCuE"
+  className="sc-bdVaJa iwnmdo"
   size="100px"
 >
   Today I missed my work out
@@ -11,7 +11,7 @@ exports[`Square Flex Item component should render default as expected 1`] = `
 
 exports[`Square Flex Item component should render with custom box shadow as expected 1`] = `
 <div
-  className="sc-bdVaJa EZUpV"
+  className="sc-bdVaJa ifiyQc"
   size="100px"
 >
   I don&apost want my next album sounding all Usher-y
@@ -20,7 +20,7 @@ exports[`Square Flex Item component should render with custom box shadow as expe
 
 exports[`Square Flex Item component should render with custom margin as expected 1`] = `
 <div
-  className="sc-bdVaJa dTSNHn"
+  className="sc-bdVaJa dGhoDf"
   size="100px"
 >
   But I must confess, I must confess
@@ -29,7 +29,7 @@ exports[`Square Flex Item component should render with custom margin as expected
 
 exports[`Square Flex Item component should render with focussed prop as expected 1`] = `
 <div
-  className="sc-bdVaJa dwOKVq"
+  className="sc-bdVaJa MAWxW"
   size="100px"
 >
   But it worked out
@@ -38,7 +38,7 @@ exports[`Square Flex Item component should render with focussed prop as expected
 
 exports[`Square Flex Item component should render with given size expected 1`] = `
 <div
-  className="sc-bdVaJa iFlcxP"
+  className="sc-bdVaJa gvixhd"
   size="300px"
 >
   I know that my girls trust is a luxury
