@@ -6,6 +6,7 @@ import Text from './index';
 const theme = {
   Global: {
     textColour: '#DA221E',
+    strongTextWeight: 600,
   },
 };
 
@@ -23,6 +24,15 @@ describe('Text component', () => {
     const render = renderer.create(
       <ThemeProvider theme={theme}>
         <Text colour="#F00B42">Why empower misogyny while violence towards women grows?</Text>
+      </ThemeProvider>,
+    );
+    expect(render.toJSON()).toMatchSnapshot();
+  });
+
+  it('should render strong as expected', () => {
+    const render = renderer.create(
+      <ThemeProvider theme={theme}>
+        <Text>Why have pride in a lyric when all the other songs go</Text>
       </ThemeProvider>,
     );
     expect(render.toJSON()).toMatchSnapshot();

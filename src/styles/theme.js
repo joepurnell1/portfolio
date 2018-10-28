@@ -10,6 +10,7 @@ export default {
   Global: {
     background: colours.white,
     textColour: colours.darkestBlue,
+    strongTextWeight: 600,
   },
   Header: {
     accent: colours.accentPink,

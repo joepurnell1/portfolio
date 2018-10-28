@@ -5,6 +5,7 @@ const Text = styled('p')`
   font-size: 1.45em;
   color: ${p => p.theme.Global.textColour};
   margin: 0;
+  font-weight: ${p => (p.strong ? p.theme.Global.strongTextWeight : 0)};
 `;
 
 Text.propTypes = propTypes;
