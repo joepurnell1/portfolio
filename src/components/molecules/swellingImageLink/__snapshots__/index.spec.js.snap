@@ -15,3 +15,23 @@ exports[`link component should render default as expected 1`] = `
   />
 </a>
 `;
+
+exports[`link component should render swell on parent as expected 1`] = `
+<div
+  className="sc-ifAKCX cFlEyZ"
+>
+  <a
+    className="sc-bdVaJa jrSDnk"
+    href="https://open.spotify.com/album/63McpWDS7P0dF06fqXQMCZ"
+    size="55px"
+  >
+    <img
+      alt="becausetheinternet"
+      className="sc-htpNat cpskcg"
+      height="50px"
+      src="https://upload.wikimedia.org/wikipedia/en/7/70/Childish-gambino-because-the-internet.gif"
+      width="50px"
+    />
+  </a>
+</div>
+`;

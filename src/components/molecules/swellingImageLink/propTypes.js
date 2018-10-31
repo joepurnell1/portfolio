@@ -1,4 +1,4 @@
-import { string } from 'prop-types';
+import { string, func } from 'prop-types';
 
 export default {
   link: string.isRequired,
@@ -6,4 +6,5 @@ export default {
   imageAlt: string.isRequired,
   size: string.isRequired,
   hoverSize: string.isRequired,
+  swellOn: func,
 };
