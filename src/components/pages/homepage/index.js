@@ -13,7 +13,7 @@ import Web from '../../../images/tech/web.svg';
 import App from '../../../images/tech/app.svg';
 import Server from '../../../images/tech/server.svg';
 
-const PaddedContainer = styled('div')`
+const RestrictedContainer = styled('div')`
   max-width: 625px;
   text-align: center;
 `;
@@ -22,17 +22,21 @@ const StyledText = styled(Text)`
   padding: 16px 0 0 0;
 `;
 
+const PaddedColouredContainer = styled(ColouredContainer)`
+  margin-top: 50px;
+`;
+
 function renderWhoAmJoe() {
   return (
     <HeadedSection sectionTitle="Who am I?">
-      <PaddedContainer>
+      <RestrictedContainer>
         <StyledText>I’m Joe, raised in Dorset, live in London.</StyledText>
         <StyledText>
           I’m an passionate developer who loves new technologies,
           tinkering with code, and creating cool projects.
         </StyledText>
         <StyledText>As a friendly guy I’m happy to chat about any projects you have.</StyledText>
-      </PaddedContainer>
+      </RestrictedContainer>
     </HeadedSection>
   );
 }
@@ -40,7 +44,7 @@ function renderWhoAmJoe() {
 function renderWhatCanJoe() {
   return (
     <HeadedSection sectionTitle="What can I do?">
-      <PaddedContainer>
+      <RestrictedContainer>
         <ImageWithText
           imageSource={Idea}
           imageAlt="design"
@@ -56,7 +60,7 @@ function renderWhatCanJoe() {
           imageAlt="surprise"
           text="Surprise You"
         />
-      </PaddedContainer>
+      </RestrictedContainer>
     </HeadedSection>
   );
 }
@@ -64,12 +68,12 @@ function renderWhatCanJoe() {
 function renderWhatCanJoeMake() {
   return (
     <HeadedSection sectionTitle="What can I make in?">
-      <PaddedContainer>
+      <RestrictedContainer>
         <StyledText strong>
           Rather than boring you with a giant list of technologies heres the headlines:
         </StyledText>
-      </PaddedContainer>
-      <PaddedContainer>
+      </RestrictedContainer>
+      <RestrictedContainer>
         <ImageWithText
           imageSource={Web}
           imageAlt="frontend"
@@ -88,7 +92,7 @@ function renderWhatCanJoeMake() {
         <StyledText strong>
           This isn&apos;t where my learning ends however, I am quite adaptable
         </StyledText>
-      </PaddedContainer>
+      </RestrictedContainer>
     </HeadedSection>
   );
 }
@@ -102,6 +106,8 @@ export default withTheme(({ theme }) => (
     {renderWhatCanJoe()}
     {renderWhatCanJoeMake()}
     <Projects />
-    <div>Icon made by Freepik from www.flaticon.com</div>
+    <PaddedColouredContainer backgroundColour={theme.Homepage.highlightedBackground}>
+      <Text>FORM HERE</Text>
+    </PaddedColouredContainer>
   </div>
 ));

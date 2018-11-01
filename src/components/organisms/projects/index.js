@@ -10,7 +10,6 @@ import Doctor from '../../../images/projects/doctor.svg';
 const Container = styled('div')`
   display: flex;
   max-width: 700px;
-  height: 900px;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 18px;
