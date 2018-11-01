@@ -5,6 +5,7 @@ import Text from '../../atoms/text/text';
 import ImageWithText from '../../molecules/imageWithText';
 import HeadedSection from '../../molecules/headedSection';
 import ColouredInfoBand from '../../organisms/colouredInfoBand';
+import Projects from '../../organisms/projects';
 import Surprise from '../../../images/icons/surprise.svg';
 import Idea from '../../../images/icons/idea.svg';
 import Code from '../../../images/icons/code.svg';
@@ -32,7 +33,6 @@ function renderWhoAmJoe() {
         </StyledText>
         <StyledText>As a friendly guy I’m happy to chat about any projects you have.</StyledText>
       </PaddedContainer>
-      <div>Icon made by Freepik from www.flaticon.com</div>
     </HeadedSection>
   );
 }
@@ -101,8 +101,7 @@ export default withTheme(({ theme }) => (
     {renderWhoAmJoe()}
     {renderWhatCanJoe()}
     {renderWhatCanJoeMake()}
-    <StyledText>
-      Icons by....flatpix in a fancy way but this is the reminder
-    </StyledText>
+    <Projects />
+    <div>Icon made by Freepik from www.flaticon.com</div>
   </div>
 ));

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`link component should render default as expected 1`] = `
+<div
+  className="sc-bxivhb jMTuVJ sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
+>
+  <h1
+    className="sc-htpNat bxfScw"
+  >
+    Projects
+  </h1>
+  <p
+    className="sc-ifAKCX dfUAjL"
+  >
+    Here are some projects I've worked on, both personal and commissioned.
+  </p>
+  <div
+    className="sc-EHOje crurGT"
+  >
+    <div
+      className="sc-bZQynM bNrWxI"
+    >
+      <h1
+        className="sc-htoDjs fPSkLt sc-htpNat jEbsks"
+      >
+        TraiNap
+      </h1>
+      <p
+        className="sc-dnqmqq fjHZP sc-ifAKCX dfUAjL"
+      >
+        An app for train passengers worried about missing their stop.
+      </p>
+      <p
+        className="sc-dnqmqq fjHZP sc-ifAKCX dfUAjL"
+      >
+        Sole developer
+      </p>
+      <p
+        className="sc-dnqmqq fjHZP sc-ifAKCX dfUAjL"
+      >
+        Built in Java for Android and Swift for iOS
+      </p>
+      <div
+        className="sc-gqjmRU jIroOM"
+      >
+        <img
+          alt="trainap"
+          className="sc-jTzLTM eJVCtQ"
+          height="190px"
+          src="test-file-stub"
+          width="auto"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM kiNeCk"
+    >
+      <img
+        alt="doctor"
+        className="sc-jTzLTM bLWDQy"
+        height="125px"
+        src="test-file-stub"
+        width="auto"
+      />
+      <h1
+        className="sc-htoDjs bRmxFn sc-htpNat jEbsks"
+      >
+        DREAMpath
+      </h1>
+      <p
+        className="sc-dnqmqq fjHZP sc-ifAKCX dfUAjL"
+      >
+        Commissioned project integrating with Apple's HealthKit
+      </p>
+      <p
+        className="sc-dnqmqq fjHZP sc-ifAKCX dfUAjL"
+      >
+        Lead developer
+      </p>
+      <p
+        className="sc-dnqmqq fjHZP sc-ifAKCX dfUAjL"
+      >
+        Using React Native, Redux, and Styled Components
+      </p>
+    </div>
+    <a
+      className="sc-VigVT kpPMkf"
+      href="https://github.com/joepurnell1/portfolio"
+    >
+      <div
+        className="sc-gzVnrw fCfsKl sc-bZQynM lepIFy"
+      >
+        <h1
+          className="sc-htoDjs ggMGBI sc-htpNat jEbsks"
+        >
+          This Website
+        </h1>
+        <p
+          className="sc-iwsKbI iHBDTO sc-ifAKCX dfUAjL"
+        >
+          A cheeky portfolio, utilising Gatsbyjs and React with a sprinkle of more Styled Components
+        </p>
+        <img
+          alt="website github"
+          className="sc-jTzLTM Usefb"
+          height="100px"
+          src="test-file-stub"
+          width="100px"
+        />
+        <p
+          className="sc-gZMcBi iJlxYS"
+        >
+          See project Repo
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;

@@ -2,8 +2,11 @@ const colours = {
   white: '#FFFFFF',
   accentPink: '#E84855',
   lightPink: '#F7A0A7',
+  fairlyDarkBlue: '#022e51',
   darkestBlue: '#011627',
-  yellow: '#F9DC5C',
+  peach: '#FFA987',
+  blue: '#067BC2',
+  kindaGreen: '#00FFC5',
 };
 
 export default {
