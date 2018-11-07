@@ -5,7 +5,7 @@ import SwellingLink from './index';
 
 const Container = styled('div')``;
 
-describe('link component', () => {
+describe('swelling image link component', () => {
   it('should render default as expected', () => {
     const render = renderer.create(
       <SwellingLink

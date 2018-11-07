@@ -6,6 +6,7 @@ import ImageWithText from '../../molecules/imageWithText';
 import HeadedSection from '../../molecules/headedSection';
 import ColouredInfoBand from '../../organisms/colouredInfoBand';
 import Projects from '../../organisms/projects';
+import SayHi from '../../organisms/sayHi';
 import Surprise from '../../../images/icons/surprise.svg';
 import Idea from '../../../images/icons/idea.svg';
 import Code from '../../../images/icons/code.svg';
@@ -107,7 +108,7 @@ export default withTheme(({ theme }) => (
     {renderWhatCanJoeMake()}
     <Projects />
     <PaddedColouredContainer backgroundColour={theme.Homepage.highlightedBackground}>
-      <Text>FORM HERE</Text>
+      <SayHi />
     </PaddedColouredContainer>
   </div>
 ));

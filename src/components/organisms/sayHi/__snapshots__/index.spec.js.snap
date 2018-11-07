@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`say hi component should render default as expected 1`] = `
+<div
+  className="sc-gZMcBi hHIYWE"
+  name="sayHi"
+>
+  <div>
+    <h1
+      className="sc-htpNat dPgqoS"
+    >
+      Say Hi
+    </h1>
+    <h4
+      className="sc-bwzfXH eNwIkd"
+    >
+      Want to collaborate, chat, or work together?
+    </h4>
+  </div>
+  <div
+    className="sc-jTzLTM jyRLJi"
+  >
+    <a
+      className="sc-VigVT dqUZmV"
+      href="mailto:joepurnell1@gmail.com"
+    >
+      <p
+        className="sc-gqjmRU iduEac sc-bdVaJa dXPSEv"
+      >
+        joepurnell1@gmail.com
+      </p>
+    </a>
+    <h4
+      className="sc-fjdhpX ezvssc sc-bwzfXH eNwIkd"
+    >
+      or
+    </h4>
+  </div>
+  <div
+    className="sc-htoDjs hwdHvz"
+  >
+    <a
+      className="sc-ifAKCX dAbayQ"
+      href="https://github.com/joepurnell1"
+      size="45px"
+    >
+      <img
+        alt="github"
+        className="sc-EHOje jaoqMH"
+        height="40px"
+        src="test-file-stub"
+        width="40px"
+      />
+    </a>
+    <a
+      className="sc-ifAKCX dAbayQ"
+      href="https://twitter.com/joepurnell8?lang=en"
+      size="45px"
+    >
+      <img
+        alt="twitter"
+        className="sc-EHOje jaoqMH"
+        height="40px"
+        src="test-file-stub"
+        width="40px"
+      />
+    </a>
+    <a
+      className="sc-ifAKCX dAbayQ"
+      href="https://www.linkedin.com/in/joe-purnell-7294295b/"
+      size="45px"
+    >
+      <img
+        alt="linkedin"
+        className="sc-EHOje jaoqMH"
+        height="40px"
+        src="test-file-stub"
+        width="40px"
+      />
+    </a>
+  </div>
+</div>
+`;

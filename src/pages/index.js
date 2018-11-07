@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 import Homepage from '../components/pages/homepage';
 
 const Page = () => (
-  <Layout headerLink="www.google.com">
+  <Layout headerLink="#sayHi">
     <Homepage />
   </Layout>
 );

@@ -2,12 +2,11 @@ import React from 'react';
 import styled, { withTheme } from 'styled-components';
 import propTypes, { defaultProps } from './propTypes';
 import ColouredContainer from '../../atoms/layout/colouredContainer';
-import HeaderText from '../../atoms/text/header';
-import TaglineText from '../../atoms/text/tagline';
 import SwellingImageLink from '../../molecules/swellingImageLink';
 import Github from '../../../images/social/github.svg';
 import Twitter from '../../../images/social/twitter.svg';
 import Linkedin from '../../../images/social/linkedin.svg';
+import HeaderWithTagline from '../../molecules/headerWithTagline';
 
 const LinkBand = styled('div')`
   min-width: 300px;
@@ -24,8 +23,11 @@ const SwellingLink = styled(SwellingImageLink).attrs({
 
 const ColouredInfoBand = ({ theme, title, subtitle }) => (
   <ColouredContainer backgroundColour={theme.ColouredInfoBand.backgroundColour}>
-    <HeaderText colour={theme.ColouredInfoBand.textColour}>{title}</HeaderText>
-    <TaglineText colour={theme.ColouredInfoBand.textColour}>{subtitle}</TaglineText>
+    <HeaderWithTagline
+      colour={theme.ColouredInfoBand.textColour}
+      headerText={title}
+      taglineText={subtitle}
+    />
     <LinkBand>
       <SwellingLink
         link="https://github.com/joepurnell1"

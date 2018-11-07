@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`link band component should render default as expected 1`] = `
+<div
+  className="sc-ifAKCX dKGVbF"
+>
+  <a
+    className="sc-bdVaJa iXjBRK"
+    href="https://github.com/joepurnell1"
+    size="45px"
+  >
+    <img
+      alt="github"
+      className="sc-bwzfXH bLQhUk"
+      height="40px"
+      src="test-file-stub"
+      width="40px"
+    />
+  </a>
+  <a
+    className="sc-bdVaJa iXjBRK"
+    href="https://twitter.com/joepurnell8?lang=en"
+    size="45px"
+  >
+    <img
+      alt="twitter"
+      className="sc-bwzfXH bLQhUk"
+      height="40px"
+      src="test-file-stub"
+      width="40px"
+    />
+  </a>
+  <a
+    className="sc-bdVaJa iXjBRK"
+    href="https://www.linkedin.com/in/joe-purnell-7294295b/"
+    size="45px"
+  >
+    <img
+      alt="linkedin"
+      className="sc-bwzfXH bLQhUk"
+      height="40px"
+      src="test-file-stub"
+      width="40px"
+    />
+  </a>
+</div>
+`;

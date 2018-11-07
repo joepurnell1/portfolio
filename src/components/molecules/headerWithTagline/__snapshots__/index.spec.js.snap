@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header with Tagline component should render default as expected 1`] = `
+<div>
+  <h1
+    className="sc-bdVaJa euDNMP"
+  >
+    Shakes me, makes me lighter
+  </h1>
+  <h4
+    className="sc-bwzfXH ksRGJZ"
+  >
+    Fearless on my breath
+  </h4>
+</div>
+`;

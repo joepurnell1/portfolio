@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`coloured info band component should render default as expected 1`] = `
+<div
+  className="sc-bwzfXH uTxCW sc-bdVaJa hHTGE"
+>
+  <div>
+    <h1
+      className="sc-bZQynM bgbfjT"
+    >
+      I wanna know what love is
+    </h1>
+    <h4
+      className="sc-gzVnrw hrhtVf"
+    >
+      I want you to show me
+    </h4>
+  </div>
+  <div
+    className="sc-dnqmqq kocGOg"
+  >
+    <a
+      className="sc-htpNat btjLWu"
+      href="https://github.com/joepurnell1"
+      size="45px"
+    >
+      <img
+        alt="github"
+        className="sc-bxivhb OhTzt"
+        height="40px"
+        src="test-file-stub"
+        width="40px"
+      />
+    </a>
+    <a
+      className="sc-htpNat btjLWu"
+      href="https://twitter.com/joepurnell8?lang=en"
+      size="45px"
+    >
+      <img
+        alt="twitter"
+        className="sc-bxivhb OhTzt"
+        height="40px"
+        src="test-file-stub"
+        width="40px"
+      />
+    </a>
+    <a
+      className="sc-htpNat btjLWu"
+      href="https://www.linkedin.com/in/joe-purnell-7294295b/"
+      size="45px"
+    >
+      <img
+        alt="linkedin"
+        className="sc-bxivhb OhTzt"
+        height="40px"
+        src="test-file-stub"
+        width="40px"
+      />
+    </a>
+  </div>
+</div>
+`;

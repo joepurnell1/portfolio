@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`link component should render default as expected 1`] = `
+exports[`swelling image link component should render default as expected 1`] = `
 <a
   className="sc-bdVaJa jrSDnk"
   href="https://open.spotify.com/album/63McpWDS7P0dF06fqXQMCZ"
@@ -16,7 +16,7 @@ exports[`link component should render default as expected 1`] = `
 </a>
 `;
 
-exports[`link component should render swell on parent as expected 1`] = `
+exports[`swelling image link component should render swell on parent as expected 1`] = `
 <div
   className="sc-ifAKCX cFlEyZ"
 >
