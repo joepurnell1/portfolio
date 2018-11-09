@@ -7,6 +7,10 @@ const HeaderText = styled('h1')`
   color: ${p => p.colour};
   margin: 0;
   line-height: 1em;
+
+  @media (max-width: 600px) {
+    text-align: center;
+  }
 `;
 
 HeaderText.propTypes = propTypes;

@@ -18,6 +18,10 @@ const Container = styled('div')`
 const EmailText = styled(Text)`
   font-size: 3em;
   color: #FFFFFF;
+
+  @media (max-width: 450px) {
+    font-size: 2em;
+  }
 `;
 
 const EmailContainer = styled('a')`

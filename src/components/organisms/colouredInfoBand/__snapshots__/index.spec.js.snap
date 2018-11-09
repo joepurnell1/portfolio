@@ -6,7 +6,7 @@ exports[`coloured info band component should render default as expected 1`] = `
 >
   <div>
     <h1
-      className="sc-bZQynM cJIBW"
+      className="sc-bZQynM hgUeTd"
     >
       I wanna know what love is
     </h1>
@@ -17,7 +17,7 @@ exports[`coloured info band component should render default as expected 1`] = `
     </h4>
   </div>
   <div
-    className="sc-dnqmqq ljoVcZ"
+    className="sc-dnqmqq cAlvHh"
   >
     <a
       className="sc-htpNat fKOroq"

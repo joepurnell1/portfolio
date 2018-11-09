@@ -14,6 +14,10 @@ const LinkBand = styled('div')`
   justify-content: space-between;
   margin-top: 50px;
   height: 45px;
+
+  @media (max-width: 400px) {
+    min-width: 350px;
+  }
 `;
 
 const SwellingLink = styled(SwellingImageLink).attrs({

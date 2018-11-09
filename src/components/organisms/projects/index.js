@@ -17,6 +17,11 @@ const Container = styled('div')`
   border-radius: 5;
 `;
 
+const IntroContainer = styled(Container)`
+  margin-top: 0;
+  text-align: center;
+`;
+
 const ProjectContainer = styled('div')`
   display: flex;
   flex: 1;
@@ -114,9 +119,11 @@ const SwellImage = styled('img')`
 
 const renderProjects = () => (
   <HeadedSection sectionTitle="Projects">
-    <Text>
-      Here are some projects I&apos;ve worked on, both personal and commissioned.
-    </Text>
+    <IntroContainer>
+      <Text>
+        Here are some projects I&apos;ve worked on, both personal and commissioned.
+      </Text>
+    </IntroContainer>
     <Container>
       <ProjectContainer colour="#44AF69">
         <SwellingHeader strong swellOn={ProjectContainer} pad>TraiNap</SwellingHeader>

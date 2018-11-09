@@ -2,7 +2,7 @@
 
 exports[`Header component should render default as expected 1`] = `
 <h1
-  className="sc-bdVaJa dKOUb"
+  className="sc-bdVaJa dJNyTI"
 >
   What is love?
 </h1>
@@ -10,7 +10,7 @@ exports[`Header component should render default as expected 1`] = `
 
 exports[`Header component should render with custom colour as expected 1`] = `
 <h1
-  className="sc-bdVaJa kfDhmz"
+  className="sc-bdVaJa rtqRW"
 >
   Baby don&apost hurt me
 </h1>

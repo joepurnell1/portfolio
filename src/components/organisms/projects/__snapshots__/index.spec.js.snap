@@ -5,47 +5,51 @@ exports[`link component should render default as expected 1`] = `
   className="sc-bxivhb jMTuVJ sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
 >
   <h1
-    className="sc-htpNat fLxPpf"
+    className="sc-htpNat jDNcbT"
   >
     Projects
   </h1>
-  <p
-    className="sc-ifAKCX kseeQo"
+  <div
+    className="sc-bZQynM jQGIII sc-EHOje bpVgrr"
   >
-    Here are some projects I've worked on, both personal and commissioned.
-  </p>
+    <p
+      className="sc-ifAKCX kseeQo"
+    >
+      Here are some projects I've worked on, both personal and commissioned.
+    </p>
+  </div>
   <div
     className="sc-EHOje bpVgrr"
   >
     <div
-      className="sc-bZQynM bNrWxI"
+      className="sc-gzVnrw eymzDz"
     >
       <h1
-        className="sc-htoDjs fPSkLt sc-htpNat cAutEc"
+        className="sc-dnqmqq jCVlgp sc-htpNat dUGAHk"
       >
         TraiNap
       </h1>
       <p
-        className="sc-iwsKbI ijLrXb sc-dnqmqq gEasZE sc-ifAKCX kseeQo"
+        className="sc-gZMcBi ezsIxi sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
       >
         An app for train passengers worried about missing their stop.
       </p>
       <p
-        className="sc-dnqmqq gEasZE sc-ifAKCX kseeQo"
+        className="sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
       >
         Sole developer
       </p>
       <p
-        className="sc-dnqmqq gEasZE sc-ifAKCX kseeQo"
+        className="sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
       >
         Built in Java for Android and Swift for iOS
       </p>
       <div
-        className="sc-VigVT iZRIBa"
+        className="sc-jTzLTM VOYXt"
       >
         <img
           alt="trainap"
-          className="sc-fjdhpX isPlFc"
+          className="sc-jzJRlG ezlpcA"
           height="190px"
           src="test-file-stub"
           width="auto"
@@ -53,62 +57,62 @@ exports[`link component should render default as expected 1`] = `
       </div>
     </div>
     <div
-      className="sc-bZQynM kiNeCk"
+      className="sc-gzVnrw hLbKhM"
     >
       <img
         alt="doctor"
-        className="sc-fjdhpX bdpTYR"
+        className="sc-jzJRlG beuPFn"
         height="125px"
         src="test-file-stub"
         width="auto"
       />
       <h1
-        className="sc-htoDjs bRmxFn sc-htpNat cAutEc"
+        className="sc-dnqmqq rBCll sc-htpNat dUGAHk"
       >
         DREAMpath
       </h1>
       <p
-        className="sc-iwsKbI ijLrXb sc-dnqmqq gEasZE sc-ifAKCX kseeQo"
+        className="sc-gZMcBi ezsIxi sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
       >
         Commissioned project integrating with Apple's HealthKit
       </p>
       <p
-        className="sc-dnqmqq gEasZE sc-ifAKCX kseeQo"
+        className="sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
       >
         Lead developer
       </p>
       <p
-        className="sc-dnqmqq gEasZE sc-ifAKCX kseeQo"
+        className="sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
       >
         Using React Native, Redux, and Styled Components
       </p>
     </div>
     <a
-      className="sc-jTzLTM XrvAC"
+      className="sc-fjdhpX bhWwPP"
       href="https://github.com/joepurnell1/portfolio"
     >
       <div
-        className="sc-gzVnrw fCfsKl sc-bZQynM lepIFy"
+        className="sc-htoDjs iIuRQb sc-gzVnrw isQJnG"
       >
         <h1
-          className="sc-htoDjs ggMGBI sc-htpNat cAutEc"
+          className="sc-dnqmqq cwltbt sc-htpNat dUGAHk"
         >
           This Website
         </h1>
         <p
-          className="sc-gZMcBi kOvUvU sc-ifAKCX kseeQo"
+          className="sc-gqjmRU dLMllQ sc-ifAKCX kseeQo"
         >
           A cheeky portfolio, utilising Gatsbyjs and React with a sprinkle of more Styled Components
         </p>
         <img
           alt="website github"
-          className="sc-fjdhpX hoeQCS"
+          className="sc-jzJRlG fcoLfJ"
           height="100px"
           src="test-file-stub"
           width="100px"
         />
         <p
-          className="sc-gqjmRU gfPBiZ"
+          className="sc-VigVT cGymkQ"
         >
           See project Repo
         </p>
