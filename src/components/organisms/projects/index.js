@@ -57,27 +57,24 @@ const ProjectText = styled(Text)`
   text-align: center;
   color: #fff;
   transition: font-size 0.25s;
+`;
 
-  ${FullWidthContainer}:hover & {
-    font-size: 20px;
-  }
+const UnpaddedText = styled(ProjectText)`
+  padding-top: 0;
 `;
 
 const SwellText = styled(Text)`
-  padding: 16px 28px 0 28px;
+  padding: 0 28px 0 28px;
   font-size: 18px;
   text-align: center;
   color: #fff;
   transition: font-size 0.25s;
-
-  ${p => p.swellOn}:hover & {
-    font-size: 20px;
-  }
 `;
 
 const BorderedText = styled('p')`
   color: #ffffff;
   font-size: 1.25em;
+  font-family: Notosans;
   margin: 1px;
   padding: 0.25em 1em;
   border: 2px solid;
@@ -123,7 +120,7 @@ const renderProjects = () => (
     <Container>
       <ProjectContainer colour="#44AF69">
         <SwellingHeader strong swellOn={ProjectContainer} pad>TraiNap</SwellingHeader>
-        <ProjectText>An app for train passengers worried about missing their stop.</ProjectText>
+        <UnpaddedText>An app for train passengers worried about missing their stop.</UnpaddedText>
         <ProjectText>Sole developer</ProjectText>
         <ProjectText>Built in Java for Android and Swift for iOS</ProjectText>
         <PaddedContainer>
@@ -150,7 +147,7 @@ const renderProjects = () => (
           hoverWidth="auto"
         />
         <SwellingHeader strong swellOn={ProjectContainer}>DREAMpath</SwellingHeader>
-        <ProjectText>Commissioned project integrating with Apple&apos;s HealthKit</ProjectText>
+        <UnpaddedText>Commissioned project integrating with Apple&apos;s HealthKit</UnpaddedText>
         <ProjectText>Lead developer</ProjectText>
         <ProjectText>Using React Native, Redux, and Styled Components</ProjectText>
       </ProjectContainer>

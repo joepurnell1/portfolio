@@ -6,6 +6,7 @@ const StyledLink = styled('a')`
   background: ${props => (props.invert ? props.theme.Link.accent : props.theme.Global.background)};
   color: ${props => (props.invert ? props.theme.Global.background : props.theme.Link.accent)};
   font-size: large;
+  font-family: Notosans;
   margin: 1px;
   padding: 0.25em 1em;
   border: 2px solid;

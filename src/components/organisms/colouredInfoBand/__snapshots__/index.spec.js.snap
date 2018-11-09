@@ -6,56 +6,56 @@ exports[`coloured info band component should render default as expected 1`] = `
 >
   <div>
     <h1
-      className="sc-bZQynM bgbfjT"
+      className="sc-bZQynM cJIBW"
     >
       I wanna know what love is
     </h1>
     <h4
-      className="sc-gzVnrw hrhtVf"
+      className="sc-gzVnrw gIaXcn"
     >
       I want you to show me
     </h4>
   </div>
   <div
-    className="sc-dnqmqq kocGOg"
+    className="sc-dnqmqq ljoVcZ"
   >
     <a
-      className="sc-htpNat btjLWu"
+      className="sc-htpNat fKOroq"
       href="https://github.com/joepurnell1"
-      size="45px"
+      size="65px"
     >
       <img
         alt="github"
-        className="sc-bxivhb OhTzt"
-        height="40px"
+        className="sc-bxivhb kKMvIY"
+        height="60px"
         src="test-file-stub"
-        width="40px"
+        width="60px"
       />
     </a>
     <a
-      className="sc-htpNat btjLWu"
+      className="sc-htpNat fKOroq"
       href="https://twitter.com/joepurnell8?lang=en"
-      size="45px"
+      size="65px"
     >
       <img
         alt="twitter"
-        className="sc-bxivhb OhTzt"
-        height="40px"
+        className="sc-bxivhb kKMvIY"
+        height="60px"
         src="test-file-stub"
-        width="40px"
+        width="60px"
       />
     </a>
     <a
-      className="sc-htpNat btjLWu"
+      className="sc-htpNat fKOroq"
       href="https://www.linkedin.com/in/joe-purnell-7294295b/"
-      size="45px"
+      size="65px"
     >
       <img
         alt="linkedin"
-        className="sc-bxivhb OhTzt"
-        height="40px"
+        className="sc-bxivhb kKMvIY"
+        height="60px"
         src="test-file-stub"
-        width="40px"
+        width="60px"
       />
     </a>
   </div>

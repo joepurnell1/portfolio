@@ -3,6 +3,7 @@ import propTypes, { defaultProps } from './propTypes';
 
 const TaglineText = styled('h4')`
   font-size: 1em;
+  font-family: Notosans;
   text-align: center;
   color: ${p => p.colour};
   margin: 0;

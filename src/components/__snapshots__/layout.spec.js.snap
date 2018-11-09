@@ -6,7 +6,7 @@ exports[`Layout should render default as expected 1`] = `
     className="sc-bxivhb lhxQdA"
   >
     <a
-      className="sc-bdVaJa isEwPn"
+      className="sc-bdVaJa xUWLe"
       href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
     >
       Say Hi
@@ -17,7 +17,7 @@ exports[`Layout should render default as expected 1`] = `
     className="sc-ifAKCX kgpNje sc-bxivhb lhxQdA"
   >
     <h4
-      className="sc-bZQynM gpHdCB sc-htpNat wuXWV"
+      className="sc-bZQynM gpHdCB sc-htpNat jOPQFR"
     >
       Joe Purnell © 2018 | Icons by Freepik from www.flaticon.com
     </h4>
@@ -31,7 +31,7 @@ exports[`Layout should render inverted as expected 1`] = `
     className="sc-bxivhb cJuWgM"
   >
     <a
-      className="sc-bdVaJa cYDfzC"
+      className="sc-bdVaJa dUDdeX"
       href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
     >
       Say Hi
@@ -42,7 +42,7 @@ exports[`Layout should render inverted as expected 1`] = `
     className="sc-ifAKCX kgpNje sc-bxivhb lhxQdA"
   >
     <h4
-      className="sc-bZQynM gpHdCB sc-htpNat wuXWV"
+      className="sc-bZQynM gpHdCB sc-htpNat jOPQFR"
     >
       Joe Purnell © 2018 | Icons by Freepik from www.flaticon.com
     </h4>

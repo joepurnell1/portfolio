@@ -16,7 +16,7 @@ const Container = styled('div')`
 `;
 
 const EmailText = styled(Text)`
-  font-size: 3.5em;
+  font-size: 3em;
   color: #FFFFFF;
 `;
 
