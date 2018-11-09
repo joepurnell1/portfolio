@@ -38,7 +38,7 @@ const ContactContentContainer = styled('div')`
 `;
 
 const SeparatorText = styled(Tagline)`
-  padding: 25px 0 25px 0;
+  padding: 15px 0 15px 0;
 `;
 
 class SayHiForm extends Component {
