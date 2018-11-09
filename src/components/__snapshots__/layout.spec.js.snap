@@ -14,17 +14,12 @@ exports[`Layout should render default as expected 1`] = `
   </div>
   I never really knew that she could dance like this
   <div
-    className="sc-ifAKCX jbJpqe sc-bxivhb lhxQdA"
+    className="sc-ifAKCX kgpNje sc-bxivhb lhxQdA"
   >
     <h4
-      className="sc-bZQynM gpHdCB sc-htpNat cWWNIZ"
+      className="sc-bZQynM gpHdCB sc-htpNat wuXWV"
     >
-      Joe Purnell © 2018
-    </h4>
-    <h4
-      className="sc-bZQynM gpHdCB sc-htpNat cWWNIZ"
-    >
-      Icons by Freepik from www.flaticon.com
+      Joe Purnell © 2018 | Icons by Freepik from www.flaticon.com
     </h4>
   </div>
 </div>
@@ -44,17 +39,12 @@ exports[`Layout should render inverted as expected 1`] = `
   </div>
   She makes a man wants to speak Spanish
   <div
-    className="sc-ifAKCX jbJpqe sc-bxivhb lhxQdA"
+    className="sc-ifAKCX kgpNje sc-bxivhb lhxQdA"
   >
     <h4
-      className="sc-bZQynM gpHdCB sc-htpNat cWWNIZ"
+      className="sc-bZQynM gpHdCB sc-htpNat wuXWV"
     >
-      Joe Purnell © 2018
-    </h4>
-    <h4
-      className="sc-bZQynM gpHdCB sc-htpNat cWWNIZ"
-    >
-      Icons by Freepik from www.flaticon.com
+      Joe Purnell © 2018 | Icons by Freepik from www.flaticon.com
     </h4>
   </div>
 </div>

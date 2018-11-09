@@ -15,10 +15,9 @@ const Container = styled.div`
 `;
 
 const FooterContainer = styled(Container)`
-  min-height: 30px;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background-color: ${p => p.colour};
 `;
 
 const StyledLink = styled(Link)`
@@ -37,12 +36,11 @@ const Layout = ({ children, headerLink, invert }) => (
         <StyledLink href={headerLink} invert={invert}>Say Hi</StyledLink>
       </Container>
       {children}
-      <FooterContainer>
-        <FooterText colour={theme.Global.textColour}>
-          Joe Purnell &copy; 2018
-        </FooterText>
-        <FooterText colour={theme.Global.textColour}>
-          Icons by Freepik from www.flaticon.com
+      <FooterContainer
+        colour={theme.Global.textColour}
+      >
+        <FooterText colour={theme.Global.background}>
+          Joe Purnell &copy; 2018 | Icons by Freepik from www.flaticon.com
         </FooterText>
       </FooterContainer>
     </div>
