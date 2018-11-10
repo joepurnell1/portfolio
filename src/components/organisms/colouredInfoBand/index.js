@@ -21,8 +21,8 @@ const LinkBand = styled('div')`
 `;
 
 const SwellingLink = styled(SwellingImageLink).attrs({
-  size: '60px',
-  hoverSize: '65px',
+  size: '45px',
+  hoverSize: '50px',
 })``;
 
 const ColouredInfoBand = ({ theme, title, subtitle }) => (
