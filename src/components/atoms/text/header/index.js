@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import propTypes, { defaultProps } from './propTypes';
 
 const HeaderText = styled('h1')`
-  font-size: 5.5em;
+  font-size: 4em;
   font-family: Poppins;
   color: ${p => p.colour};
   margin: 0;

@@ -12,7 +12,7 @@ exports[`ImageWithText component should render default as expected 1`] = `
     width="50px"
   />
   <p
-    className="sc-ifAKCX jJhMeM sc-htpNat cZTLza"
+    className="sc-ifAKCX jJhMeM sc-htpNat dTFeoJ"
   >
     I got a unicorn horn for a (Stop)
   </p>

@@ -6,7 +6,7 @@ import Tagline from './atoms/text/tagline';
 import theme from '../styles/theme';
 import '../styles/global.css';
 
-const Container = styled.div`
+const Container = styled('header')`
   background: ${props => (props.invert ? props.theme.Header.accent : props.theme.Global.background)};
   display: flex;
   justify-content: flex-end;
@@ -14,10 +14,13 @@ const Container = styled.div`
   padding-right: 16px;
 `;
 
-const FooterContainer = styled(Container)`
+const FooterContainer = styled('footer')`
   justify-content: center;
   align-items: center;
   background-color: ${p => p.colour};
+  display: flex;
+  padding: 4px;
+  padding-right: 16px;
 `;
 
 const StyledLink = styled(Link)`

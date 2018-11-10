@@ -5,7 +5,7 @@ exports[`link component should render default as expected 1`] = `
   className="sc-bxivhb jMTuVJ sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
 >
   <h1
-    className="sc-htpNat jDNcbT"
+    className="sc-htpNat cqGubD"
   >
     Projects
   </h1>
@@ -13,7 +13,7 @@ exports[`link component should render default as expected 1`] = `
     className="sc-bZQynM jQGIII sc-EHOje bpVgrr"
   >
     <p
-      className="sc-ifAKCX kseeQo"
+      className="sc-ifAKCX kHXOzc"
     >
       Here are some projects I've worked on, both personal and commissioned.
     </p>
@@ -25,22 +25,22 @@ exports[`link component should render default as expected 1`] = `
       className="sc-gzVnrw eymzDz"
     >
       <h1
-        className="sc-dnqmqq jCVlgp sc-htpNat dUGAHk"
+        className="sc-dnqmqq jCVlgp sc-htpNat dPEwEU"
       >
         TraiNap
       </h1>
       <p
-        className="sc-gZMcBi ezsIxi sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
+        className="sc-gZMcBi ezsIxi sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
       >
         An app for train passengers worried about missing their stop.
       </p>
       <p
-        className="sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
+        className="sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
       >
         Sole developer
       </p>
       <p
-        className="sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
+        className="sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
       >
         Built in Java for Android and Swift for iOS
       </p>
@@ -67,22 +67,22 @@ exports[`link component should render default as expected 1`] = `
         width="auto"
       />
       <h1
-        className="sc-dnqmqq rBCll sc-htpNat dUGAHk"
+        className="sc-dnqmqq rBCll sc-htpNat dPEwEU"
       >
         DREAMpath
       </h1>
       <p
-        className="sc-gZMcBi ezsIxi sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
+        className="sc-gZMcBi ezsIxi sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
       >
         Commissioned project integrating with Apple's HealthKit
       </p>
       <p
-        className="sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
+        className="sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
       >
         Lead developer
       </p>
       <p
-        className="sc-iwsKbI RZpEO sc-ifAKCX kseeQo"
+        className="sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
       >
         Using React Native, Redux, and Styled Components
       </p>
@@ -95,12 +95,12 @@ exports[`link component should render default as expected 1`] = `
         className="sc-htoDjs iIuRQb sc-gzVnrw isQJnG"
       >
         <h1
-          className="sc-dnqmqq cwltbt sc-htpNat dUGAHk"
+          className="sc-dnqmqq cwltbt sc-htpNat dPEwEU"
         >
           This Website
         </h1>
         <p
-          className="sc-gqjmRU dLMllQ sc-ifAKCX kseeQo"
+          className="sc-gqjmRU dLMllQ sc-ifAKCX kHXOzc"
         >
           A cheeky portfolio, utilising Gatsbyjs and React with a sprinkle of more Styled Components
         </p>

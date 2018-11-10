@@ -3,7 +3,7 @@
 exports[`Header with Tagline component should render default as expected 1`] = `
 <div>
   <h1
-    className="sc-bdVaJa eVjLnu"
+    className="sc-bdVaJa dXLWSe"
   >
     Shakes me, makes me lighter
   </h1>
