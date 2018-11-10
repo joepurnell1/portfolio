@@ -4,7 +4,6 @@ import { string, node, bool } from 'prop-types';
 import Link from './atoms/link';
 import Tagline from './atoms/text/tagline';
 import theme from '../styles/theme';
-import '../styles/global.css';
 
 const Container = styled('header')`
   background: ${props => (props.invert ? props.theme.Header.accent : props.theme.Global.background)};

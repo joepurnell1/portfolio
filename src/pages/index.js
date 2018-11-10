@@ -16,6 +16,9 @@ import * as fonts from '../fonts';
       src:
         local('Poppins'), url('${fonts.Poppins}') format('woff');
     }
+    body {
+      margin: 0;
+    }
   `;
 /* eslint-enable */
 
