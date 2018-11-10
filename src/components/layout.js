@@ -31,6 +31,8 @@ const FooterText = styled(Tagline)`
   font-size: 0.75em;
 `;
 
+const date = new Date();
+
 const Layout = ({ children, headerLink, invert }) => (
   <ThemeProvider theme={theme}>
     <div>
@@ -42,7 +44,7 @@ const Layout = ({ children, headerLink, invert }) => (
         colour={theme.Global.textColour}
       >
         <FooterText colour={theme.Global.background}>
-          Joe Purnell &copy; 2018 | Icons by Freepik from www.flaticon.com
+          {`Joe Purnell © ${date.getFullYear()} | Icons by Freepik from www.flaticon.com`}
         </FooterText>
       </FooterContainer>
     </div>
