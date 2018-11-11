@@ -1,10 +1,11 @@
 import React from 'react';
 import styled, { withTheme } from 'styled-components';
-import ColouredContainer from '../../atoms/layout/colouredContainer';
+// import ColouredContainer from '../../atoms/layout/colouredContainer';
 import Text from '../../atoms/text/text';
 import ImageWithText from '../../molecules/imageWithText';
 import HeadedSection from '../../molecules/headedSection';
 import ColouredInfoBand from '../../organisms/colouredInfoBand';
+import PatternedContainer from '../../atoms/layout/patternedContainer';
 import Projects from '../../organisms/projects';
 import SayHi from '../../organisms/sayHi';
 import Surprise from '../../../images/icons/surprise.svg';
@@ -27,7 +28,7 @@ const StyledText = styled(Text)`
   }
 `;
 
-const PaddedColouredContainer = styled(ColouredContainer)`
+const PaddedPatternedContainer = styled(PatternedContainer)`
   margin-top: 50px;
 `;
 
@@ -104,15 +105,15 @@ function renderWhatCanJoeMake() {
 
 export default withTheme(({ theme }) => (
   <div>
-    <ColouredContainer backgroundColour={theme.Homepage.highlightedBackground}>
+    <PatternedContainer backgroundColour={theme.Homepage.highlightedBackground}>
       <ColouredInfoBand title="Hi, I'm Joe." subtitle="(better than your average Joe)" />
-    </ColouredContainer>
+    </PatternedContainer>
     {renderWhoAmJoe()}
     {renderWhatCanJoe()}
     {renderWhatCanJoeMake()}
     <Projects />
-    <PaddedColouredContainer backgroundColour={theme.Homepage.highlightedBackground}>
+    <PaddedPatternedContainer backgroundColour={theme.Homepage.highlightedBackground}>
       <SayHi />
-    </PaddedColouredContainer>
+    </PaddedPatternedContainer>
   </div>
 ));

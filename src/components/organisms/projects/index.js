@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import HeadedSection from '../../molecules/headedSection';
 import Header from '../../atoms/text/header';
 import Text from '../../atoms/text/text';
-import Github from '../../../images/social/github.svg';
+import Github from '../../../images/social/github-transparent.svg';
 import Trainap from '../../../images/projects/trainap.png';
 import Doctor from '../../../images/projects/doctor.svg';
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import styled, { withTheme } from 'styled-components';
 import propTypes, { defaultProps } from './propTypes';
-import ColouredContainer from '../../atoms/layout/colouredContainer';
 import SwellingImageLink from '../../molecules/swellingImageLink';
 import Github from '../../../images/social/github.svg';
 import Twitter from '../../../images/social/twitter.svg';
@@ -26,8 +25,16 @@ const SwellingLink = styled(SwellingImageLink).attrs({
   hoverSize: '50px',
 })``;
 
+const Container = styled('div')`
+  display: flex;
+  min-height: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`;
+
 const ColouredInfoBand = ({ theme, title, subtitle }) => (
-  <ColouredContainer backgroundColour={theme.ColouredInfoBand.backgroundColour}>
+  <Container backgroundColour={theme.ColouredInfoBand.backgroundColour}>
     <HeaderWithTagline
       colour={theme.ColouredInfoBand.textColour}
       headerText={title}
@@ -50,7 +57,7 @@ const ColouredInfoBand = ({ theme, title, subtitle }) => (
         imageAlt="linkedin"
       />
     </LinkBand>
-  </ColouredContainer>
+  </Container>
 );
 
 ColouredInfoBand.propTypes = propTypes;

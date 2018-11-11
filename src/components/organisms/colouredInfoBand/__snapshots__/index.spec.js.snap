@@ -2,57 +2,57 @@
 
 exports[`coloured info band component should render default as expected 1`] = `
 <div
-  className="sc-bwzfXH uTxCW sc-bdVaJa hHTGE"
+  className="sc-iwsKbI fmhqVP"
 >
   <div>
     <h1
-      className="sc-bZQynM hIMIMa"
+      className="sc-ifAKCX jOhGnC"
     >
       I wanna know what love is
     </h1>
     <h4
-      className="sc-htoDjs gUKbtT sc-gzVnrw gIaXcn"
+      className="sc-bZQynM eLkTfE sc-EHOje eJawiV"
     >
       I want you to show me
     </h4>
   </div>
   <div
-    className="sc-iwsKbI iYvhaQ"
+    className="sc-htoDjs jxSuyb"
   >
     <a
-      className="sc-htpNat cgCaMG"
+      className="sc-bdVaJa gIDGas"
       href="https://github.com/joepurnell1"
       size="50px"
     >
       <img
         alt="github"
-        className="sc-bxivhb bvYrKA"
+        className="sc-bwzfXH bPkNZE"
         height="45px"
         src="test-file-stub"
         width="45px"
       />
     </a>
     <a
-      className="sc-htpNat cgCaMG"
+      className="sc-bdVaJa gIDGas"
       href="https://twitter.com/joepurnell8?lang=en"
       size="50px"
     >
       <img
         alt="twitter"
-        className="sc-bxivhb bvYrKA"
+        className="sc-bwzfXH bPkNZE"
         height="45px"
         src="test-file-stub"
         width="45px"
       />
     </a>
     <a
-      className="sc-htpNat cgCaMG"
+      className="sc-bdVaJa gIDGas"
       href="https://www.linkedin.com/in/joe-purnell-7294295b/"
       size="50px"
     >
       <img
         alt="linkedin"
-        className="sc-bxivhb bvYrKA"
+        className="sc-bwzfXH bPkNZE"
         height="45px"
         src="test-file-stub"
         width="45px"
