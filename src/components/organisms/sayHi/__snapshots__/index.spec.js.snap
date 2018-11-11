@@ -6,11 +6,11 @@ exports[`say hi component should render default as expected 1`] = `
   name="sayHi"
 >
   <div>
-    <h1
+    <h2
       className="sc-htpNat eABxbp"
     >
       Say Hi
-    </h1>
+    </h2>
     <h4
       className="sc-bxivhb etBgSf sc-bwzfXH dWtbxn"
     >

@@ -14,7 +14,6 @@ module.exports = {
       options: {
         // logo: './src/favicon.png',
         logo: './src/images/icons/surprise.svg',
-        lang: 'en-UK',
       },
     },
   ],

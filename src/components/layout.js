@@ -44,6 +44,8 @@ const renderHelmet = () => (
     <meta name="og:title" content="Personal Website and Portfolio for Joe Purnell" />
     <meta name="og:site_name" content="Joe Purnell's Portfolio" />
     <meta name="og:description" content="Have a glimpse into the work of fullstack developer, Joe Purnell." />
+    <meta name="lang" content="en" />
+    <meta name="xml:lang" content="en" />
   </Helmet>
 );
 

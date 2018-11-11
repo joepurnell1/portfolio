@@ -3,7 +3,7 @@ import styled, { withTheme } from 'styled-components';
 import propTypes, { defaultProps } from './propTypes';
 import Text from '../../atoms/text/text';
 import Tagline from '../../atoms/text/tagline';
-import HeaderWithTagline from '../../molecules/headerWithTagline';
+import SubheaderWithTagline from '../../molecules/subheaderWithTagline';
 import LinkBand from '../../molecules/linkBand';
 
 const Container = styled('div')`
@@ -56,7 +56,7 @@ class SayHiForm extends Component {
 
     return (
       <Container name="sayHi">
-        <HeaderWithTagline
+        <SubheaderWithTagline
           colour={theme.ColouredInfoBand.textColour}
           headerText="Say Hi"
           taglineText="Want to collaborate, chat, work together?"
