@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import styled, { ThemeProvider } from 'styled-components';
 import { string, node, bool } from 'prop-types';
 import Link from './atoms/link';
@@ -33,12 +34,31 @@ const FooterText = styled(Tagline)`
 
 const date = new Date();
 
-const Layout = ({ children, headerLink, invert }) => (
+const renderHelmet = () => (
+  <Helmet>
+    <title>Personal Website and Portfolio for Joe Purnell</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Have a glimpse into the work of fullstack developer, Joe Purnell." />
+    <meta name="keywords" content="portfolio, fullstack, developer, web, mobile, apps, software" />
+    <meta name="author" content="Joe Purnell" />
+    <meta name="og:title" content="Personal Website and Portfolio for Joe Purnell" />
+    <meta name="og:site_name" content="Joe Purnell's Portfolio" />
+    <meta name="og:description" content="Have a glimpse into the work of fullstack developer, Joe Purnell." />
+  </Helmet>
+);
+
+const Layout = ({
+  children, headerLink, invert,
+}) => (
   <ThemeProvider theme={theme}>
     <div>
-      <Container invert={invert}>
-        <StyledLink href={headerLink} invert={invert}>Say Hi</StyledLink>
-      </Container>
+      {renderHelmet()}
+      {headerLink && (
+        <Container invert={invert}>
+          <StyledLink href={headerLink} invert={invert}>Say Hi</StyledLink>
+        </Container>
+      )
+      }
       {children}
       <FooterContainer
         colour={theme.Global.textColour}
@@ -52,13 +72,14 @@ const Layout = ({ children, headerLink, invert }) => (
 );
 
 Layout.propTypes = {
-  headerLink: string.isRequired,
+  headerLink: string,
   children: node.isRequired,
   invert: bool,
 };
 
 Layout.defaultProps = {
   invert: false,
+  headerLink: '',
 };
 
 export default Layout;

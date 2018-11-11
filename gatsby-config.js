@@ -9,5 +9,13 @@ module.exports = {
     'gatsby-plugin-eslint',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-favicon',
+      options: {
+        // logo: './src/favicon.png',
+        logo: './src/images/icons/surprise.svg',
+        lang: 'en-UK',
+      },
+    },
   ],
 };
