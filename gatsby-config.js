@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.example.com',
+    siteUrl: 'https://vigorous-blackwell-2e8597.netlify.com/',
   },
   plugins: [
     {
