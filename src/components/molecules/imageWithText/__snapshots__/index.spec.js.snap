@@ -2,7 +2,7 @@
 
 exports[`ImageWithText component should render default as expected 1`] = `
 <div
-  className="sc-bxivhb kIRBcn"
+  className="sc-bxivhb gehbV"
 >
   <img
     alt="LegendHasIt"

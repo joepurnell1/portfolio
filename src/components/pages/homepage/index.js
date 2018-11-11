@@ -21,6 +21,10 @@ const RestrictedContainer = styled('div')`
 
 const StyledText = styled(Text)`
   padding: 16px 0 0 0;
+
+  @media (max-width: 420px) {
+    padding: 16px 8px 0 8px;
+  }
 `;
 
 const PaddedColouredContainer = styled(ColouredContainer)`

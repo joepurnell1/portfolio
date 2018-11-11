@@ -15,8 +15,9 @@ const LinkBand = styled('div')`
   margin-top: 50px;
   height: 45px;
 
-  @media (max-width: 400px) {
-    min-width: 350px;
+  @media (max-width: 420px) {
+    min-width: 300px;
+    margin: 50px 8px 0 8px;
   }
 `;
 
