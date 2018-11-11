@@ -2,77 +2,77 @@
 
 exports[`say hi component should render default as expected 1`] = `
 <div
-  className="sc-gZMcBi hHIYWE"
+  className="sc-gqjmRU lpfnpx"
   name="sayHi"
 >
   <div>
     <h1
-      className="sc-htpNat dPEwEU"
+      className="sc-htpNat eABxbp"
     >
       Say Hi
     </h1>
     <h4
-      className="sc-bwzfXH dWtbxn"
+      className="sc-bxivhb etBgSf sc-bwzfXH dWtbxn"
     >
       Want to collaborate, chat, or work together?
     </h4>
   </div>
   <div
-    className="sc-jTzLTM jyRLJi"
+    className="sc-fjdhpX fYQjVC"
   >
     <a
-      className="sc-VigVT dqUZmV"
+      className="sc-jTzLTM fsaHps"
       href="mailto:joepurnell1@gmail.com"
     >
       <p
-        className="sc-gqjmRU bkbMLz sc-bdVaJa ffOSnf"
+        className="sc-VigVT hXfGJ sc-bdVaJa ffOSnf"
       >
         joepurnell1@gmail.com
       </p>
     </a>
     <h4
-      className="sc-fjdhpX glCjAp sc-bwzfXH dWtbxn"
+      className="sc-jzJRlG iLsyX sc-bwzfXH dWtbxn"
     >
       or
     </h4>
   </div>
   <div
-    className="sc-htoDjs hwdHvz"
+    className="sc-dnqmqq dmtTbG"
   >
     <a
-      className="sc-ifAKCX dAbayQ"
+      className="sc-EHOje jzUzgy"
       href="https://github.com/joepurnell1"
       size="45px"
     >
       <img
         alt="github"
-        className="sc-EHOje jaoqMH"
+        className="sc-bZQynM ganNfJ"
         height="40px"
         src="test-file-stub"
         width="40px"
       />
     </a>
     <a
-      className="sc-ifAKCX dAbayQ"
+      className="sc-EHOje jzUzgy"
       href="https://twitter.com/joepurnell8?lang=en"
       size="45px"
     >
       <img
         alt="twitter"
-        className="sc-EHOje jaoqMH"
+        className="sc-bZQynM ganNfJ"
         height="40px"
         src="test-file-stub"
         width="40px"
       />
     </a>
     <a
-      className="sc-ifAKCX dAbayQ"
+      className="sc-EHOje jzUzgy"
       href="https://www.linkedin.com/in/joe-purnell-7294295b/"
       size="45px"
     >
       <img
         alt="linkedin"
-        className="sc-EHOje jaoqMH"
+        className="sc-bZQynM ganNfJ"
         height="40px"
         src="test-file-stub"
         width="40px"

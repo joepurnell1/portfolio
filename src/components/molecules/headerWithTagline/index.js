@@ -4,10 +4,14 @@ import propTypes from './propTypes';
 import HeaderText from '../../atoms/text/header';
 import TaglineText from '../../atoms/text/tagline';
 
+const PaddedTagline = styled(TaglineText)`
+  padding-top: 0.7em;
+`;
+
 const headerWithTagline = ({ colour, headerText, taglineText }) => (
   <div>
     <HeaderText colour={colour}>{headerText}</HeaderText>
-    <TaglineText colour={colour}>{taglineText}</TaglineText>
+    <PaddedTagline colour={colour}>{taglineText}</PaddedTagline>
   </div>
 );
 

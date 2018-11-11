@@ -5,7 +5,7 @@ exports[`link component should render default as expected 1`] = `
   className="sc-bxivhb jMTuVJ sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
 >
   <h1
-    className="sc-htpNat cqGubD"
+    className="sc-htpNat huBioS"
   >
     Projects
   </h1>
@@ -25,7 +25,7 @@ exports[`link component should render default as expected 1`] = `
       className="sc-gzVnrw eymzDz"
     >
       <h1
-        className="sc-dnqmqq jCVlgp sc-htpNat dPEwEU"
+        className="sc-dnqmqq jCVlgp sc-htpNat eABxbp"
       >
         TraiNap
       </h1>
@@ -67,7 +67,7 @@ exports[`link component should render default as expected 1`] = `
         width="auto"
       />
       <h1
-        className="sc-dnqmqq rBCll sc-htpNat dPEwEU"
+        className="sc-dnqmqq rBCll sc-htpNat eABxbp"
       >
         DREAMpath
       </h1>
@@ -95,7 +95,7 @@ exports[`link component should render default as expected 1`] = `
         className="sc-htoDjs iIuRQb sc-gzVnrw isQJnG"
       >
         <h1
-          className="sc-dnqmqq cwltbt sc-htpNat dPEwEU"
+          className="sc-dnqmqq cwltbt sc-htpNat eABxbp"
         >
           This Website
         </h1>

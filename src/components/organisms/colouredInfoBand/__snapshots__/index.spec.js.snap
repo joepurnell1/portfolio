@@ -6,18 +6,18 @@ exports[`coloured info band component should render default as expected 1`] = `
 >
   <div>
     <h1
-      className="sc-bZQynM eyjgtQ"
+      className="sc-bZQynM hIMIMa"
     >
       I wanna know what love is
     </h1>
     <h4
-      className="sc-gzVnrw gIaXcn"
+      className="sc-htoDjs gUKbtT sc-gzVnrw gIaXcn"
     >
       I want you to show me
     </h4>
   </div>
   <div
-    className="sc-dnqmqq cAlvHh"
+    className="sc-iwsKbI WzdTp"
   >
     <a
       className="sc-htpNat cgCaMG"
