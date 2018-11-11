@@ -14,7 +14,7 @@ exports[`say hi component should render default as expected 1`] = `
     <h4
       className="sc-bxivhb etBgSf sc-bwzfXH dWtbxn"
     >
-      Want to collaborate, chat, or work together?
+      Want to collaborate, chat, work together?
     </h4>
   </div>
   <div

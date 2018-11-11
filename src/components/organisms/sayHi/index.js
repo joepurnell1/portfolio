@@ -59,7 +59,7 @@ class SayHiForm extends Component {
         <HeaderWithTagline
           colour={theme.ColouredInfoBand.textColour}
           headerText="Say Hi"
-          taglineText="Want to collaborate, chat, or work together?"
+          taglineText="Want to collaborate, chat, work together?"
         />
         <ContactContentContainer>
           <EmailContainer
