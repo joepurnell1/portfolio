@@ -8,7 +8,7 @@ const HeaderText = styled('h1')`
   margin: 0;
   line-height: 1em;
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     text-align: center;
   }
 `;
