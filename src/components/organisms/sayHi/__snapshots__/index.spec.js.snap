@@ -23,6 +23,7 @@ exports[`say hi component should render default as expected 1`] = `
     <form
       className="sc-jTzLTM iNxaQE"
       method="POST"
+      name="contact"
     >
       <input
         id="name"
