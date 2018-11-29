@@ -68,7 +68,14 @@ class SayHiForm extends Component {
           taglineText="Want to collaborate, chat, work together?"
         />
         <ContactContentContainer>
-          <form name="contact" netlify>
+          <form
+            name="contact"
+            data-netlify="true"
+            netlify
+            netlify-honeypot="bot-field"
+            hidden
+          >
+            <input type="hidden" name="form-name" value="contact" />
             <p>
               <label htmlFor="name">
                 Name

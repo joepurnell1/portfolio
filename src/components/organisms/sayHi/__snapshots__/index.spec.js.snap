@@ -21,9 +21,17 @@ exports[`say hi component should render default as expected 1`] = `
     className="sc-gqjmRU cCZtEb"
   >
     <form
+      data-netlify="true"
+      hidden={true}
       name="contact"
       netlify={true}
+      netlify-honeypot="bot-field"
     >
+      <input
+        name="form-name"
+        type="hidden"
+        value="contact"
+      />
       <p>
         <label
           htmlFor="name"
