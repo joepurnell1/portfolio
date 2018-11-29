@@ -98,10 +98,11 @@ class SayHiForm extends Component {
             name="contact"
             data-netlify
             netlify
-            netlify-honeypot="form-name"
+            netlify-honeypot="contact"
             action="/thankyou"
           >
             <StyledInput id="name" type="text" name="name" placeholder="Name" />
+            <StyledInput id="email" type="email" name="email" placeholder="Email" />
             <StyledInput id="email" type="email" name="email" placeholder="Email" />
             <StyledTextArea id="message" name="message" placeholder="Message" />
             <StyledButton type="submit">Send</StyledButton>

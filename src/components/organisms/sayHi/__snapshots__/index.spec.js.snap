@@ -40,6 +40,13 @@ exports[`say hi component should render default as expected 1`] = `
         placeholder="Email"
         type="email"
       />
+      <input
+        className="sc-fjdhpX EcTnh"
+        id="email"
+        name="email"
+        placeholder="Email"
+        type="email"
+      />
       <textarea
         className="sc-jzJRlG kWytDx"
         id="message"
