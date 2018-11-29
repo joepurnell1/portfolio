@@ -2,77 +2,93 @@
 
 exports[`say hi component should render default as expected 1`] = `
 <div
-  className="sc-gqjmRU lpfnpx"
+  className="sc-gZMcBi hHIYWE"
   name="sayHi"
 >
   <div>
     <h2
-      className="sc-htpNat eABxbp"
+      className="sc-bwzfXH dtPuyW"
     >
       Say Hi
     </h2>
     <h4
-      className="sc-bxivhb etBgSf sc-bwzfXH dWtbxn"
+      className="sc-htpNat fRfHMo sc-bdVaJa fAUyDd"
     >
       Want to collaborate, chat, work together?
     </h4>
   </div>
   <div
-    className="sc-fjdhpX fYQjVC"
+    className="sc-gqjmRU cCZtEb"
   >
-    <a
-      className="sc-jTzLTM fsaHps"
-      href="mailto:joepurnell1@gmail.com"
+    <form
+      className="sc-jTzLTM iNxaQE"
+      method="POST"
     >
-      <p
-        className="sc-VigVT hXfGJ sc-bdVaJa ffOSnf"
-      >
-        joepurnell1@gmail.com
-      </p>
-    </a>
+      <input
+        id="name"
+        name="name"
+        placeholder="Name"
+        type="text"
+      />
+      <input
+        id="email"
+        name="email"
+        placeholder="Email"
+        type="email"
+      />
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Message"
+      />
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
     <h4
-      className="sc-jzJRlG iLsyX sc-bwzfXH dWtbxn"
+      className="sc-VigVT jRQhPq sc-bdVaJa fAUyDd"
     >
       or
     </h4>
   </div>
   <div
-    className="sc-dnqmqq dmtTbG"
+    className="sc-htoDjs hwdHvz"
   >
     <a
-      className="sc-EHOje jzUzgy"
+      className="sc-ifAKCX dAbayQ"
       href="https://github.com/joepurnell1"
       size="45px"
     >
       <img
         alt="github"
-        className="sc-bZQynM ganNfJ"
+        className="sc-EHOje jaoqMH"
         height="40px"
         src="test-file-stub"
         width="40px"
       />
     </a>
     <a
-      className="sc-EHOje jzUzgy"
+      className="sc-ifAKCX dAbayQ"
       href="https://twitter.com/joepurnell8?lang=en"
       size="45px"
     >
       <img
         alt="twitter"
-        className="sc-bZQynM ganNfJ"
+        className="sc-EHOje jaoqMH"
         height="40px"
         src="test-file-stub"
         width="40px"
       />
     </a>
     <a
-      className="sc-EHOje jzUzgy"
+      className="sc-ifAKCX dAbayQ"
       href="https://www.linkedin.com/in/joe-purnell-7294295b/"
       size="45px"
     >
       <img
         alt="linkedin"
-        className="sc-bZQynM ganNfJ"
+        className="sc-EHOje jaoqMH"
         height="40px"
         src="test-file-stub"
         width="40px"
