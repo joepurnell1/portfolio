@@ -43,6 +43,7 @@ const StyledInput = styled('input')`
   border-style: solid;
   border-color: #FFF;
   font-size: 1em;
+  font-family: Notosans;
 `;
 
 const StyledTextArea = styled('textarea')`
@@ -54,6 +55,7 @@ const StyledTextArea = styled('textarea')`
   border-style: solid;
   border-color: #FFF;
   font-size: 1em;
+  font-family: Notosans;
 `;
 
 const StyledButton = styled('button')`

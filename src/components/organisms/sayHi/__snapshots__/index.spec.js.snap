@@ -27,28 +27,28 @@ exports[`say hi component should render default as expected 1`] = `
       name="contact"
     >
       <input
-        className="sc-fjdhpX EcTnh"
+        className="sc-fjdhpX jRptIF"
         id="name"
         name="name"
         placeholder="Name"
         type="text"
       />
       <input
-        className="sc-fjdhpX EcTnh"
+        className="sc-fjdhpX jRptIF"
         id="email"
         name="email"
         placeholder="Email"
         type="email"
       />
       <input
-        className="sc-fjdhpX EcTnh"
+        className="sc-fjdhpX jRptIF"
         id="email"
         name="email"
         placeholder="Email"
         type="email"
       />
       <textarea
-        className="sc-jzJRlG kWytDx"
+        className="sc-jzJRlG elBafK"
         id="message"
         name="message"
         placeholder="Message"
