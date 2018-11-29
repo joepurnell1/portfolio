@@ -21,9 +21,9 @@ exports[`say hi component should render default as expected 1`] = `
     className="sc-gqjmRU cCZtEb"
   >
     <form
-      className="sc-jTzLTM iNxaQE"
       method="POST"
       name="contact"
+      netlify={true}
     >
       <input
         id="name"

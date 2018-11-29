@@ -25,10 +25,10 @@ const SeparatorText = styled(Tagline)`
   padding: 15px 0 15px 0;
 `;
 
-const StyledForm = styled('form')`
-  display: flex;
-  flex-direction: column;
-`;
+// const StyledForm = styled('form')`
+//   display: flex;
+//   flex-direction: column;
+// `;
 
 class SayHiForm extends Component {
   constructor(props) {
@@ -48,12 +48,12 @@ class SayHiForm extends Component {
           taglineText="Want to collaborate, chat, work together?"
         />
         <ContactContentContainer>
-          <StyledForm name="contact" method="POST" netlify>
+          <form name="contact" method="POST" netlify>
             <input id="name" name="name" type="text" placeholder="Name" value={name} />
             <input id="email" name="email" type="email" placeholder="Email" value={email} />
             <textarea id="message" name="message" placeholder="Message" value={message} />
             <input type="submit" value="Submit" />
-          </StyledForm>
+          </form>
           <SeparatorText>or</SeparatorText>
         </ContactContentContainer>
         <LinkBand />
