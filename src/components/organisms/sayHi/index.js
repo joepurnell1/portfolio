@@ -70,18 +70,14 @@ class SayHiForm extends Component {
         <ContactContentContainer>
           <form
             name="contact"
-            data-netlify="true"
+            data-netlify
             netlify
             netlify-honeypot="bot-field"
-            hidden
           >
             <input type="hidden" name="form-name" value="contact" />
-            <p>
-              <label htmlFor="name">
-                Name
-                <input id="name" type="text" name="name" />
-              </label>
-            </p>
+            <input id="name" type="text" name="name" placeholder="Name" />
+            <input id="email" type="email" name="email" placeholder="Email" />
+            <textarea id="message" name="message" />
             <p>
               <button type="submit">Send</button>
             </p>
