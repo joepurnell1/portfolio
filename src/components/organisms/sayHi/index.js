@@ -15,6 +15,26 @@ const Container = styled('div')`
   flex: 1;
 `;
 
+// const EmailText = styled(Text)`
+//   font-size: 2.5em;
+//   color: #FFFFFF;
+
+//   @media (max-width: 450px) {
+//     font-size: 2em;
+//   }
+// `;
+
+// const EmailContainer = styled('a')`
+//   text-decoration: none;
+//   color: #FFFFFF;
+//   display: flex;
+//   flex-wrap: wrap;
+
+//   & :hover {
+//     text-decoration: underline;
+//   }
+// `;
+
 const ContactContentContainer = styled('div')`
   margin-top: 25px;
   display: flex;
@@ -38,7 +58,7 @@ class SayHiForm extends Component {
 
   render() {
     const { theme } = this.props;
-    const { name, email, message } = this.state;
+    // const { name, email, message } = this.state;
 
     return (
       <Container name="sayHi">
@@ -48,11 +68,16 @@ class SayHiForm extends Component {
           taglineText="Want to collaborate, chat, work together?"
         />
         <ContactContentContainer>
-          <form name="contact" method="POST" netlify>
-            <input id="name" name="name" type="text" placeholder="Name" value={name} />
-            <input id="email" name="email" type="email" placeholder="Email" value={email} />
-            <textarea id="message" name="message" placeholder="Message" value={message} />
-            <input type="submit" value="Submit" />
+          <form name="contact" netlify>
+            <p>
+              <label htmlFor="name">
+                Name
+                <input id="name" type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
           </form>
           <SeparatorText>or</SeparatorText>
         </ContactContentContainer>

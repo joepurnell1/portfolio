@@ -21,31 +21,28 @@ exports[`say hi component should render default as expected 1`] = `
     className="sc-gqjmRU cCZtEb"
   >
     <form
-      method="POST"
       name="contact"
       netlify={true}
     >
-      <input
-        id="name"
-        name="name"
-        placeholder="Name"
-        type="text"
-      />
-      <input
-        id="email"
-        name="email"
-        placeholder="Email"
-        type="email"
-      />
-      <textarea
-        id="message"
-        name="message"
-        placeholder="Message"
-      />
-      <input
-        type="submit"
-        value="Submit"
-      />
+      <p>
+        <label
+          htmlFor="name"
+        >
+          Name
+          <input
+            id="name"
+            name="name"
+            type="text"
+          />
+        </label>
+      </p>
+      <p>
+        <button
+          type="submit"
+        >
+          Send
+        </button>
+      </p>
     </form>
     <h4
       className="sc-VigVT jRQhPq sc-bdVaJa fAUyDd"
