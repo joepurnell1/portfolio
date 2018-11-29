@@ -48,7 +48,7 @@ class SayHiForm extends Component {
           taglineText="Want to collaborate, chat, work together?"
         />
         <ContactContentContainer>
-          <StyledForm name="contact" onSubmit={this.handleSubmit} method="POST" netlify>
+          <StyledForm name="contact" method="POST" netlify>
             <input id="name" name="name" type="text" placeholder="Name" value={name} />
             <input id="email" name="email" type="email" placeholder="Email" value={email} />
             <textarea id="message" name="message" placeholder="Message" value={message} />
