@@ -85,7 +85,6 @@ class SayHiForm extends Component {
 
   render() {
     const { theme } = this.props;
-    // const { name, email, message } = this.state;
 
     return (
       <Container name="sayHi">
@@ -100,11 +99,13 @@ class SayHiForm extends Component {
             data-netlify
             netlify
             netlify-honeypot="bot-field"
+            action="/thankyou"
           >
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" value="contact" />
             <StyledInput id="name" type="text" name="name" placeholder="Name" />
             <StyledInput id="email" type="email" name="email" placeholder="Email" />
             <StyledTextArea id="message" name="message" placeholder="Message" />
+            <div data-netlify-recaptcha />
             <StyledButton type="submit">Send</StyledButton>
           </StyledForm>
           <SeparatorText>or</SeparatorText>
