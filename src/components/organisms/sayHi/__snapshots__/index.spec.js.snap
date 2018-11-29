@@ -27,11 +27,6 @@ exports[`say hi component should render default as expected 1`] = `
       name="contact"
     >
       <input
-        name="bot-field"
-        type="hidden"
-        value="contact"
-      />
-      <input
         className="sc-fjdhpX EcTnh"
         id="name"
         name="name"
@@ -50,9 +45,6 @@ exports[`say hi component should render default as expected 1`] = `
         id="message"
         name="message"
         placeholder="Message"
-      />
-      <div
-        data-netlify-recaptcha={true}
       />
       <button
         className="sc-cSHVUG fwBiCI"

@@ -101,11 +101,9 @@ class SayHiForm extends Component {
             netlify-honeypot="bot-field"
             action="/thankyou"
           >
-            <input type="hidden" name="bot-field" value="contact" />
             <StyledInput id="name" type="text" name="name" placeholder="Name" />
             <StyledInput id="email" type="email" name="email" placeholder="Email" />
             <StyledTextArea id="message" name="message" placeholder="Message" />
-            <div data-netlify-recaptcha />
             <StyledButton type="submit">Send</StyledButton>
           </StyledForm>
           <SeparatorText>or</SeparatorText>
