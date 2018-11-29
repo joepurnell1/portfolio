@@ -1,6 +1,5 @@
 import React from 'react';
 import styled, { withTheme } from 'styled-components';
-// import ColouredContainer from '../../atoms/layout/colouredContainer';
 import Text from '../../atoms/text/text';
 import ImageWithText from '../../molecules/imageWithText';
 import HeadedSection from '../../molecules/headedSection';
@@ -30,6 +29,7 @@ const StyledText = styled(Text)`
 
 const PaddedPatternedContainer = styled(PatternedContainer)`
   margin-top: 50px;
+  padding: 50px 0 50px 0;
 `;
 
 function renderWhoAmJoe() {

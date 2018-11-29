@@ -21,10 +21,9 @@ exports[`say hi component should render default as expected 1`] = `
     className="sc-gqjmRU cCZtEb"
   >
     <form
+      className="sc-jTzLTM erRFYX"
       data-netlify={true}
       name="contact"
-      netlify={true}
-      netlify-honeypot="bot-field"
     >
       <input
         name="form-name"
@@ -32,28 +31,31 @@ exports[`say hi component should render default as expected 1`] = `
         value="contact"
       />
       <input
+        className="sc-fjdhpX EcTnh"
         id="name"
         name="name"
         placeholder="Name"
         type="text"
       />
       <input
+        className="sc-fjdhpX EcTnh"
         id="email"
         name="email"
         placeholder="Email"
         type="email"
       />
       <textarea
+        className="sc-jzJRlG kWytDx"
         id="message"
         name="message"
+        placeholder="Message"
       />
-      <p>
-        <button
-          type="submit"
-        >
-          Send
-        </button>
-      </p>
+      <button
+        className="sc-cSHVUG fwBiCI"
+        type="submit"
+      >
+        Send
+      </button>
     </form>
     <h4
       className="sc-VigVT jRQhPq sc-bdVaJa fAUyDd"

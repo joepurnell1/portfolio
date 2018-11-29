@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled, { withTheme } from 'styled-components';
 import propTypes, { defaultProps } from './propTypes';
-// import Text from '../../atoms/text/text';
 import Tagline from '../../atoms/text/tagline';
 import SubheaderWithTagline from '../../molecules/subheaderWithTagline';
 import LinkBand from '../../molecules/linkBand';
@@ -15,26 +14,6 @@ const Container = styled('div')`
   flex: 1;
 `;
 
-// const EmailText = styled(Text)`
-//   font-size: 2.5em;
-//   color: #FFFFFF;
-
-//   @media (max-width: 450px) {
-//     font-size: 2em;
-//   }
-// `;
-
-// const EmailContainer = styled('a')`
-//   text-decoration: none;
-//   color: #FFFFFF;
-//   display: flex;
-//   flex-wrap: wrap;
-
-//   & :hover {
-//     text-decoration: underline;
-//   }
-// `;
-
 const ContactContentContainer = styled('div')`
   margin-top: 25px;
   display: flex;
@@ -45,10 +24,58 @@ const SeparatorText = styled(Tagline)`
   padding: 15px 0 15px 0;
 `;
 
-// const StyledForm = styled('form')`
-//   display: flex;
-//   flex-direction: column;
-// `;
+const StyledForm = styled('form')`
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+
+  @media (max-width: 420px) {
+    width: 300px;
+  }
+`;
+
+const StyledInput = styled('input')`
+  margin-bottom: 10px;
+  line-height: 1em;
+  padding: 0 5px 0 5px;
+  border-radius: 2px;
+  border: 1px;
+  border-style: solid;
+  border-color: #FFF;
+  font-size: 1em;
+`;
+
+const StyledTextArea = styled('textarea')`
+  margin-bottom: 10px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px;
+  border-style: solid;
+  border-color: #FFF;
+  font-size: 1em;
+`;
+
+const StyledButton = styled('button')`
+  background: ${props => (props.theme.Global.background)};
+  color: ${props => (props.theme.Link.accent)};
+  font-size: large;
+  font-family: Notosans;
+  margin: 1px;
+  padding: 0.25em 1em;
+  border: 2px solid;
+  border-color: ${props => (props.theme.Link.accent)};
+  border-radius: 45px;
+  text-decoration: none;
+  min-width: 200px;
+  align-self: center;
+
+  &:hover {
+    background: ${props => (props.theme.Link.accent)};
+    color: ${props => (props.theme.Global.background)};
+    border-color: ${props => (props.theme.Global.background)};
+  }
+`;
 
 class SayHiForm extends Component {
   constructor(props) {
@@ -68,20 +95,18 @@ class SayHiForm extends Component {
           taglineText="Want to collaborate, chat, work together?"
         />
         <ContactContentContainer>
-          <form
+          <StyledForm
             name="contact"
             data-netlify
             netlify
             netlify-honeypot="bot-field"
           >
             <input type="hidden" name="form-name" value="contact" />
-            <input id="name" type="text" name="name" placeholder="Name" />
-            <input id="email" type="email" name="email" placeholder="Email" />
-            <textarea id="message" name="message" />
-            <p>
-              <button type="submit">Send</button>
-            </p>
-          </form>
+            <StyledInput id="name" type="text" name="name" placeholder="Name" />
+            <StyledInput id="email" type="email" name="email" placeholder="Email" />
+            <StyledTextArea id="message" name="message" placeholder="Message" />
+            <StyledButton type="submit">Send</StyledButton>
+          </StyledForm>
           <SeparatorText>or</SeparatorText>
         </ContactContentContainer>
         <LinkBand />
