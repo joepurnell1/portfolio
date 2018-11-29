@@ -98,7 +98,7 @@ class SayHiForm extends Component {
             name="contact"
             data-netlify
             netlify
-            netlify-honeypot="bot-field"
+            netlify-honeypot="form-name"
             action="/thankyou"
           >
             <StyledInput id="name" type="text" name="name" placeholder="Name" />
