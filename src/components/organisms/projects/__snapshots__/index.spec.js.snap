@@ -2,7 +2,7 @@
 
 exports[`link component should render default as expected 1`] = `
 <div
-  className="sc-bxivhb jMTuVJ sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
+  className="sc-bxivhb pamPv sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
 >
   <h1
     className="sc-htpNat huBioS"
@@ -10,7 +10,7 @@ exports[`link component should render default as expected 1`] = `
     Projects
   </h1>
   <div
-    className="sc-bZQynM jQGIII sc-EHOje bpVgrr"
+    className="sc-VigVT hAXObu sc-gqjmRU SyPVV"
   >
     <p
       className="sc-ifAKCX kHXOzc"
@@ -19,103 +19,180 @@ exports[`link component should render default as expected 1`] = `
     </p>
   </div>
   <div
-    className="sc-EHOje bpVgrr"
+    className="sc-gqjmRU SyPVV"
   >
-    <div
-      className="sc-gzVnrw eymzDz"
-    >
-      <h1
-        className="sc-dnqmqq jCVlgp sc-htpNat eABxbp"
-      >
-        TraiNap
-      </h1>
-      <p
-        className="sc-gZMcBi ezsIxi sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
-      >
-        An app for train passengers worried about missing their stop.
-      </p>
-      <p
-        className="sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
-      >
-        Sole developer
-      </p>
-      <p
-        className="sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
-      >
-        Built in Java for Android and Swift for iOS
-      </p>
-      <div
-        className="sc-jTzLTM VOYXt"
-      >
-        <img
-          alt="trainap"
-          className="sc-jzJRlG ezlpcA"
-          height="190px"
-          src="test-file-stub"
-          width="auto"
-        />
-      </div>
-    </div>
-    <div
-      className="sc-gzVnrw hLbKhM"
-    >
-      <img
-        alt="doctor"
-        className="sc-jzJRlG beuPFn"
-        height="125px"
-        src="test-file-stub"
-        width="auto"
-      />
-      <h1
-        className="sc-dnqmqq rBCll sc-htpNat eABxbp"
-      >
-        DREAMpath
-      </h1>
-      <p
-        className="sc-gZMcBi ezsIxi sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
-      >
-        Commissioned project integrating with Apple's HealthKit
-      </p>
-      <p
-        className="sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
-      >
-        Lead developer
-      </p>
-      <p
-        className="sc-iwsKbI RZpEO sc-ifAKCX kHXOzc"
-      >
-        Using React Native, Redux, and Styled Components
-      </p>
-    </div>
     <a
-      className="sc-fjdhpX bhWwPP"
+      className="sc-EHOje hdKMCe"
+      href={null}
+    >
+      <div>
+        <h1
+          className="sc-bZQynM gnKKYz sc-htpNat huBioS"
+        >
+          DREAMpath
+        </h1>
+        <p
+          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+        >
+          Commissioned project integrating with Apple's HealthKit
+        </p>
+        <p
+          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+        >
+          Using React Native, Redux, and Styled Components
+        </p>
+      </div>
+      <div
+        className="sc-htoDjs krFKSS"
+      >
+        <div
+          className="sc-dnqmqq gKySJT"
+        >
+          <div
+            className="sc-iwsKbI eWCEqT"
+          >
+            <p
+              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+            >
+              React Native
+            </p>
+          </div>
+        </div>
+        <div
+          className="sc-dnqmqq gKySJT"
+        >
+          <div
+            className="sc-iwsKbI iwQeuv"
+          >
+            <p
+              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+            >
+              Commissioned
+            </p>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a
+      className="sc-EHOje cqdFgI"
       href="https://github.com/joepurnell1/portfolio"
     >
-      <div
-        className="sc-htoDjs iIuRQb sc-gzVnrw isQJnG"
-      >
+      <div>
         <h1
-          className="sc-dnqmqq cwltbt sc-htpNat eABxbp"
+          className="sc-bZQynM gnKKYz sc-htpNat huBioS"
         >
           This Website
         </h1>
         <p
-          className="sc-gqjmRU dLMllQ sc-ifAKCX kHXOzc"
+          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
         >
-          A cheeky portfolio, utilising Gatsbyjs and React with a sprinkle of more Styled Components
+          A cheeky portfolio, utilising Gatsbyjs and React with a sprinkle of more Styled Components.
         </p>
-        <img
-          alt="website github"
-          className="sc-jzJRlG fcoLfJ"
-          height="100px"
-          src="test-file-stub"
-          width="100px"
-        />
         <p
-          className="sc-VigVT cGymkQ"
+          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
         >
-          See project Repo
+          Feel free to have a look at the repo.
         </p>
+      </div>
+      <div
+        className="sc-htoDjs krFKSS"
+      >
+        <div
+          className="sc-dnqmqq gKySJT"
+        >
+          <div
+            className="sc-iwsKbI jnujCD"
+          >
+            <p
+              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+            >
+              React
+            </p>
+          </div>
+          <div
+            className="sc-iwsKbI jnujCD"
+          >
+            <p
+              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+            >
+              GatsbyJS
+            </p>
+          </div>
+        </div>
+        <div
+          className="sc-dnqmqq gKySJT"
+        >
+          <div
+            className="sc-iwsKbI iwQeuv"
+          >
+            <p
+              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+            >
+              Personal
+            </p>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a
+      className="sc-EHOje gQUlee"
+      href={null}
+    >
+      <div>
+        <h1
+          className="sc-bZQynM gnKKYz sc-htpNat huBioS"
+        >
+          TraiNap
+        </h1>
+        <p
+          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+        >
+          Geolocation app for train passengers worried about missing their stop.
+        </p>
+        <p
+          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+        >
+          Built in Java for Android and Swift for iOS.
+        </p>
+      </div>
+      <div
+        className="sc-htoDjs krFKSS"
+      >
+        <div
+          className="sc-dnqmqq gKySJT"
+        >
+          <div
+            className="sc-iwsKbI jZushC"
+          >
+            <p
+              className="sc-gZMcBi hKcNQS sc-ifAKCX kHXOzc"
+            >
+              Java
+            </p>
+          </div>
+          <div
+            className="sc-iwsKbI jZushC"
+          >
+            <p
+              className="sc-gZMcBi hKcNQS sc-ifAKCX kHXOzc"
+            >
+              Swift
+            </p>
+          </div>
+        </div>
+        <div
+          className="sc-dnqmqq gKySJT"
+        >
+          <div
+            className="sc-iwsKbI iwQeuv"
+          >
+            <p
+              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+            >
+              Personal
+            </p>
+          </div>
+        </div>
       </div>
     </a>
   </div>

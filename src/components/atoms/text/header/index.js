@@ -4,7 +4,7 @@ import propTypes, { defaultProps } from './propTypes';
 const HeaderText = styled('h1')`
   font-size: 4em;
   font-family: Poppins;
-  color: ${p => p.colour};
+  color: ${p => (p.theme.HeadedSection ? p.theme.HeadedSection.headerText : p.colour)};
   margin: 0;
   line-height: 1em;
 
