@@ -8,7 +8,7 @@ exports[`Header with Tagline component should render default as expected 1`] = `
     Shakes me, makes me lighter
   </h1>
   <h4
-    className="sc-htpNat fRfHMo sc-bwzfXH bJBZAi"
+    className="sc-htpNat fRfHMo sc-bwzfXH kDfbwU"
   >
     Fearless on my breath
   </h4>

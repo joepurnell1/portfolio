@@ -1,22 +1,15 @@
 import React from 'react';
 import styled, { withTheme } from 'styled-components';
 import Text from '../../atoms/text/text';
-import ImageWithText from '../../molecules/imageWithText';
-import HeadedSection from '../../molecules/headedSection';
-import ColouredInfoBand from '../../organisms/colouredInfoBand';
 import PatternedContainer from '../../atoms/layout/patternedContainer';
 import Projects from '../../organisms/projects';
 import SayHi from '../../organisms/sayHi';
-import Surprise from '../../../images/icons/surprise.svg';
-import Idea from '../../../images/icons/idea.svg';
-import Code from '../../../images/icons/code.svg';
-import Web from '../../../images/tech/web.svg';
-import App from '../../../images/tech/app.svg';
-import Server from '../../../images/tech/server.svg';
+import LinkBand from '../../molecules/linkBand';
+import Header from '../../atoms/text/header';
+import TaglineText from '../../atoms/text/tagline';
 
-const RestrictedContainer = styled('div')`
-  max-width: 625px;
-  text-align: center;
+const PaddedTagline = styled(TaglineText)`
+  padding-top: 0.7em;
 `;
 
 const StyledText = styled(Text)`
@@ -32,85 +25,58 @@ const PaddedPatternedContainer = styled(PatternedContainer)`
   padding: 50px 0 50px 0;
 `;
 
-function renderWhoAmJoe() {
-  return (
-    <HeadedSection sectionTitle="Who am I?">
-      <RestrictedContainer>
-        <StyledText>I’m Joe, raised in Dorset, live in London.</StyledText>
-        <StyledText>
-          I’m an passionate developer who loves new technologies,
-          tinkering with code, and creating cool projects.
-        </StyledText>
-        <StyledText>As a friendly guy I’m happy to chat about any projects you have.</StyledText>
-      </RestrictedContainer>
-    </HeadedSection>
-  );
-}
+const HeaderContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+`;
 
-function renderWhatCanJoe() {
-  return (
-    <HeadedSection sectionTitle="What can I do?">
-      <RestrictedContainer>
-        <ImageWithText
-          imageSource={Idea}
-          imageAlt="design"
-          text="Work with you on growing your ideas into designs"
-        />
-        <ImageWithText
-          imageSource={Code}
-          imageAlt="code"
-          text="Develop ideas to life as Mobile Apps or Websites I am also skilled in backend systems and automated testing."
-        />
-        <ImageWithText
-          imageSource={Surprise}
-          imageAlt="surprise"
-          text="Surprise You"
-        />
-      </RestrictedContainer>
-    </HeadedSection>
-  );
-}
+const HeaderContentParent = styled.div`
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+`;
 
-function renderWhatCanJoeMake() {
+const HeaderContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+`;
+
+const DescriptionContainer = styled.div`
+  max-width: 500px;
+  text-align: flex-start;
+`;
+
+function renderIntro(theme) {
   return (
-    <HeadedSection sectionTitle="What can I make in?">
-      <RestrictedContainer>
-        <StyledText strong>
-          Rather than boring you with a giant list of technologies heres the headlines:
-        </StyledText>
-      </RestrictedContainer>
-      <RestrictedContainer>
-        <ImageWithText
-          imageSource={Web}
-          imageAlt="frontend"
-          text="My frontend world centers around React based technologies."
-        />
-        <ImageWithText
-          imageSource={App}
-          imageAlt="mobile-apps"
-          text="Fancy apps built mainly using React Native (though I have also used Java and Swift)."
-        />
-        <ImageWithText
-          imageSource={Server}
-          imageAlt="backend"
-          text="Backend experience started in the Java world expanding from there."
-        />
-        <StyledText strong>
-          This isn&apos;t where my learning ends however, I am quite adaptable
-        </StyledText>
-      </RestrictedContainer>
-    </HeadedSection>
+    <HeaderContainer>
+      <HeaderContentParent>
+        <HeaderContentContainer>
+          <Header>{'Hi, I\'m Joe 🙋🏻‍♂️'}</Header>
+          <PaddedTagline colour={theme.Header.accent}>(better than your average Joe)</PaddedTagline>
+          <DescriptionContainer>
+            <StyledText>I’m Joe, raised in Dorset, live in London.</StyledText>
+            <StyledText>
+              I’m an passionate developer who loves new technologies,
+              tinkering with code, and creating cool projects.
+            </StyledText>
+            <StyledText>
+              As a friendly guy I’m happy to chat about any projects you have.
+            </StyledText>
+          </DescriptionContainer>
+          <LinkBand />
+        </HeaderContentContainer>
+      </HeaderContentParent>
+    </HeaderContainer>
   );
 }
 
 export default withTheme(({ theme }) => (
   <div>
-    <PatternedContainer backgroundColour={theme.Homepage.highlightedBackground}>
-      <ColouredInfoBand title="Hi, I'm Joe." subtitle="(better than your average Joe)" />
-    </PatternedContainer>
-    {renderWhoAmJoe()}
-    {renderWhatCanJoe()}
-    {renderWhatCanJoeMake()}
+    {renderIntro(theme)}
     <Projects />
     <PaddedPatternedContainer backgroundColour={theme.Homepage.highlightedBackground}>
       <SayHi />

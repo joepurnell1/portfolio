@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import styled, { ThemeProvider } from 'styled-components';
-import { string, node, bool } from 'prop-types';
+import { string, node } from 'prop-types';
 import Link from './atoms/link';
 import Tagline from './atoms/text/tagline';
 import theme from '../styles/theme';
@@ -10,8 +10,9 @@ const Container = styled('header')`
   background: ${props => (props.invert ? props.theme.Header.accent : props.theme.Global.background)};
   display: flex;
   justify-content: flex-end;
-  padding: 4px;
+  padding: 2px;
   padding-right: 16px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 6px 0px;
 `;
 
 const FooterContainer = styled('footer')`
@@ -50,14 +51,14 @@ const renderHelmet = () => (
 );
 
 const Layout = ({
-  children, headerLink, invert,
+  children, headerLink,
 }) => (
   <ThemeProvider theme={theme}>
     <div>
       {renderHelmet()}
       {headerLink && (
-        <Container invert={invert}>
-          <StyledLink href={headerLink} invert={invert}>Say Hi</StyledLink>
+        <Container invert>
+          <StyledLink href={headerLink}>Say Hi</StyledLink>
         </Container>
       )
       }
@@ -76,7 +77,6 @@ const Layout = ({
 Layout.propTypes = {
   headerLink: string,
   children: node.isRequired,
-  invert: bool,
 };
 
 Layout.defaultProps = {

@@ -3,10 +3,10 @@
 exports[`Layout should render default as expected 1`] = `
 <div>
   <header
-    className="sc-bxivhb lhxQdA"
+    className="sc-bxivhb cwezfh"
   >
     <a
-      className="sc-bdVaJa xUWLe"
+      className="sc-bdVaJa fTxJLE"
       href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
     >
       Say Hi
@@ -17,9 +17,9 @@ exports[`Layout should render default as expected 1`] = `
     className="sc-ifAKCX hYztjM"
   >
     <h4
-      className="sc-bZQynM gpHdCB sc-htpNat jOPQFR"
+      className="sc-bZQynM gpHdCB sc-htpNat biCJXv"
     >
-      Joe Purnell © 2018 | Icons by Freepik from www.flaticon.com
+      Joe Purnell © 2019 | Icons by Freepik from www.flaticon.com
     </h4>
   </footer>
 </div>
@@ -28,10 +28,10 @@ exports[`Layout should render default as expected 1`] = `
 exports[`Layout should render inverted as expected 1`] = `
 <div>
   <header
-    className="sc-bxivhb cJuWgM"
+    className="sc-bxivhb cwezfh"
   >
     <a
-      className="sc-bdVaJa dUDdeX"
+      className="sc-bdVaJa fTxJLE"
       href="https://www.youtube.com/watch?v=DUT5rEU6pqM"
     >
       Say Hi
@@ -42,9 +42,9 @@ exports[`Layout should render inverted as expected 1`] = `
     className="sc-ifAKCX hYztjM"
   >
     <h4
-      className="sc-bZQynM gpHdCB sc-htpNat jOPQFR"
+      className="sc-bZQynM gpHdCB sc-htpNat biCJXv"
     >
-      Joe Purnell © 2018 | Icons by Freepik from www.flaticon.com
+      Joe Purnell © 2019 | Icons by Freepik from www.flaticon.com
     </h4>
   </footer>
 </div>

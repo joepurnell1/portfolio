@@ -7,14 +7,20 @@ import Linkedin from '../../../images/social/linkedin.svg';
 
 const LinkBand = styled('div')`
   min-width: 300px;
+  max-width: 35vw;
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  height: 45px;
+  margin-top: 4vh;
+
+  @media (max-width: 420px) {
+    margin: 50px 8px 0 8px;
+  }
 `;
 
 const SwellingLink = styled(SwellingImageLink).attrs({
-  size: '40px',
-  hoverSize: '45px',
+  size: '50px',
+  hoverSize: '55px',
 })``;
 
 const ColouredInfoBand = () => (

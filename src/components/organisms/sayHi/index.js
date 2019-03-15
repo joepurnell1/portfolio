@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import styled, { withTheme } from 'styled-components';
 import propTypes, { defaultProps } from './propTypes';
-import Tagline from '../../atoms/text/tagline';
 import SubheaderWithTagline from '../../molecules/subheaderWithTagline';
-import LinkBand from '../../molecules/linkBand';
 
 const Container = styled('div')`
   display: flex;
@@ -15,13 +13,8 @@ const Container = styled('div')`
 `;
 
 const ContactContentContainer = styled('div')`
-  margin-top: 25px;
   display: flex;
   flex-direction: column;
-`;
-
-const SeparatorText = styled(Tagline)`
-  padding: 15px 0 15px 0;
 `;
 
 const StyledForm = styled('form')`
@@ -63,7 +56,6 @@ const StyledButton = styled('button')`
   color: ${props => (props.theme.Link.accent)};
   font-size: large;
   font-family: Notosans;
-  margin: 1px;
   padding: 0.25em 1em;
   border: 2px solid;
   border-color: ${props => (props.theme.Link.accent)};
@@ -93,7 +85,7 @@ class SayHiForm extends Component {
         <SubheaderWithTagline
           colour={theme.ColouredInfoBand.textColour}
           headerText="Say Hi"
-          taglineText="Want to collaborate, chat, work together?"
+          taglineText="Want to collaborate, chat, or work together?"
         />
         <ContactContentContainer>
           <StyledForm
@@ -105,13 +97,10 @@ class SayHiForm extends Component {
           >
             <StyledInput id="name" type="text" name="name" placeholder="Name" />
             <StyledInput id="email" type="email" name="email" placeholder="Email" />
-            <StyledInput id="email" type="email" name="email" placeholder="Email" />
             <StyledTextArea id="message" name="message" placeholder="Message" />
             <StyledButton type="submit">Send</StyledButton>
           </StyledForm>
-          <SeparatorText>or</SeparatorText>
         </ContactContentContainer>
-        <LinkBand />
       </Container>
     );
   }

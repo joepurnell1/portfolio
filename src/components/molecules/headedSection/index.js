@@ -8,6 +8,7 @@ const Container = styled(ColouredContainer)`
   justify-content: flex-start;
   padding: 50px 0 0 0;
   min-height: 250px;
+  margin-top: 36px;
 `;
 
 const HeadedSection = ({ theme, sectionTitle, children }) => (

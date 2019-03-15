@@ -2,112 +2,57 @@
 
 exports[`say hi component should render default as expected 1`] = `
 <div
-  className="sc-gZMcBi hHIYWE"
+  className="sc-ifAKCX kUuevw"
   name="sayHi"
 >
   <div>
     <h2
-      className="sc-bwzfXH dtPuyW"
+      className="sc-bdVaJa fxUZL"
     >
       Say Hi
     </h2>
     <h4
-      className="sc-htpNat fRfHMo sc-bdVaJa fAUyDd"
+      className="sc-htpNat byCFkh sc-bwzfXH hBISYf"
     >
-      Want to collaborate, chat, work together?
+      Want to collaborate, chat, or work together?
     </h4>
   </div>
   <div
-    className="sc-gqjmRU cCZtEb"
+    className="sc-EHOje fpqoIO"
   >
     <form
       action="/thankyou"
-      className="sc-jTzLTM erRFYX"
+      className="sc-bZQynM kzjRjv"
       data-netlify={true}
       name="contact"
     >
       <input
-        className="sc-fjdhpX jRptIF"
+        className="sc-gzVnrw hLOXgw"
         id="name"
         name="name"
         placeholder="Name"
         type="text"
       />
       <input
-        className="sc-fjdhpX jRptIF"
-        id="email"
-        name="email"
-        placeholder="Email"
-        type="email"
-      />
-      <input
-        className="sc-fjdhpX jRptIF"
+        className="sc-gzVnrw hLOXgw"
         id="email"
         name="email"
         placeholder="Email"
         type="email"
       />
       <textarea
-        className="sc-jzJRlG elBafK"
+        className="sc-htoDjs cCjGBJ"
         id="message"
         name="message"
         placeholder="Message"
       />
       <button
-        className="sc-cSHVUG fwBiCI"
+        className="sc-dnqmqq cjWEkI"
         type="submit"
       >
         Send
       </button>
     </form>
-    <h4
-      className="sc-VigVT jRQhPq sc-bdVaJa fAUyDd"
-    >
-      or
-    </h4>
-  </div>
-  <div
-    className="sc-htoDjs hwdHvz"
-  >
-    <a
-      className="sc-ifAKCX dAbayQ"
-      href="https://github.com/joepurnell1"
-      size="45px"
-    >
-      <img
-        alt="github"
-        className="sc-EHOje jaoqMH"
-        height="40px"
-        src="test-file-stub"
-        width="40px"
-      />
-    </a>
-    <a
-      className="sc-ifAKCX dAbayQ"
-      href="https://twitter.com/joepurnell8?lang=en"
-      size="45px"
-    >
-      <img
-        alt="twitter"
-        className="sc-EHOje jaoqMH"
-        height="40px"
-        src="test-file-stub"
-        width="40px"
-      />
-    </a>
-    <a
-      className="sc-ifAKCX dAbayQ"
-      href="https://www.linkedin.com/in/joe-purnell-7294295b/"
-      size="45px"
-    >
-      <img
-        alt="linkedin"
-        className="sc-EHOje jaoqMH"
-        height="40px"
-        src="test-file-stub"
-        width="40px"
-      />
-    </a>
   </div>
 </div>
 `;
