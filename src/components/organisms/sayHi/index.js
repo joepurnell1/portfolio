@@ -71,6 +71,13 @@ const StyledButton = styled('button')`
   }
 `;
 
+const Hidden = styled('p')`
+  visibility: hidden;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+`;
+
 class SayHiForm extends Component {
   constructor(props) {
     super(props);
@@ -92,9 +99,15 @@ class SayHiForm extends Component {
             name="contact"
             data-netlify
             netlify
-            netlify-honeypot="contact"
+            netlify-honeypot="bot-field"
             action="/thankyou"
           >
+            <Hidden>
+              <label htmlFor="bot-field">
+                {'Don’t fill this out if you\'re human:'}
+                <input name="bot-field" />
+              </label>
+            </Hidden>
             <StyledInput id="name" type="text" name="name" placeholder="Name" />
             <StyledInput id="email" type="email" name="email" placeholder="Email" />
             <StyledTextArea id="message" name="message" placeholder="Message" />
