@@ -49,6 +49,7 @@ const StyledTextArea = styled('textarea')`
   border-color: #FFF;
   font-size: 1em;
   font-family: Notosans;
+  resize: none;
 `;
 
 const StyledButton = styled('button')`

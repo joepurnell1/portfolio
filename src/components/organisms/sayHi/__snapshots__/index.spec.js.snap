@@ -55,7 +55,7 @@ exports[`say hi component should render default as expected 1`] = `
         type="email"
       />
       <textarea
-        className="sc-htoDjs cCjGBJ"
+        className="sc-htoDjs hGUtfB"
         id="message"
         name="message"
         placeholder="Message"
