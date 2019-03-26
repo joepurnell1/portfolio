@@ -108,9 +108,9 @@ class SayHiForm extends Component {
                 <input name="bot-field" />
               </label>
             </Hidden>
-            <StyledInput id="name" type="text" name="name" placeholder="Name" />
-            <StyledInput id="email" type="email" name="email" placeholder="Email" />
-            <StyledTextArea id="message" name="message" placeholder="Message" />
+            <StyledInput id="name" type="text" name="name" placeholder="Name" required />
+            <StyledInput id="email" type="email" name="email" placeholder="Email" required />
+            <StyledTextArea id="message" name="message" placeholder="Message" required />
             <StyledButton type="submit">Send</StyledButton>
           </StyledForm>
         </ContactContentContainer>
