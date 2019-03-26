@@ -22,7 +22,7 @@ const StyledText = styled(Text)`
 
 const PaddedPatternedContainer = styled(PatternedContainer)`
   margin-top: 50px;
-  padding: 50px 0 50px 0;
+  padding: 16px 0 16px 0;
 `;
 
 const HeaderContainer = styled.div`
