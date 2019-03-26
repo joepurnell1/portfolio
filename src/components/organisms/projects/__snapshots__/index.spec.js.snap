@@ -4,68 +4,68 @@ exports[`link component should render default as expected 1`] = `
 <div
   className="sc-bxivhb pamPv sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
 >
-  <h1
+  <h2
     className="sc-htpNat huBioS"
   >
     Projects
-  </h1>
+  </h2>
   <div
-    className="sc-VigVT hAXObu sc-gqjmRU SyPVV"
+    className="sc-jTzLTM hOLxwU sc-VigVT DpsFS"
   >
     <p
-      className="sc-ifAKCX kHXOzc"
+      className="sc-EHOje jzXmcs"
     >
       Here are some projects I've worked on, both personal and commissioned.
     </p>
   </div>
   <div
-    className="sc-gqjmRU SyPVV"
+    className="sc-VigVT DpsFS"
   >
     <a
-      className="sc-EHOje hdKMCe"
+      className="sc-bZQynM hXWMEG"
       href={null}
     >
       <div>
         <h1
-          className="sc-bZQynM gnKKYz sc-htpNat huBioS"
+          className="sc-gzVnrw thunt sc-ifAKCX cgeGlw"
         >
           DREAMpath
         </h1>
         <p
-          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+          className="sc-htoDjs ljVdHu sc-EHOje jzXmcs"
         >
           Commissioned project integrating with Apple's HealthKit
         </p>
         <p
-          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+          className="sc-htoDjs ljVdHu sc-EHOje jzXmcs"
         >
           Using React Native, Redux, and Styled Components
         </p>
       </div>
       <div
-        className="sc-htoDjs krFKSS"
+        className="sc-dnqmqq iEqOrh"
       >
         <div
-          className="sc-dnqmqq gKySJT"
+          className="sc-iwsKbI cxRWga"
         >
           <div
-            className="sc-iwsKbI eWCEqT"
+            className="sc-gZMcBi kfvhhv"
           >
             <p
-              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+              className="sc-gqjmRU hQazng sc-EHOje jzXmcs"
             >
               React Native
             </p>
           </div>
         </div>
         <div
-          className="sc-dnqmqq gKySJT"
+          className="sc-iwsKbI cxRWga"
         >
           <div
-            className="sc-iwsKbI iwQeuv"
+            className="sc-gZMcBi gsRbfa"
           >
             <p
-              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+              className="sc-gqjmRU hQazng sc-EHOje jzXmcs"
             >
               Commissioned
             </p>
@@ -74,59 +74,59 @@ exports[`link component should render default as expected 1`] = `
       </div>
     </a>
     <a
-      className="sc-EHOje cqdFgI"
+      className="sc-bZQynM fPTPTO"
       href="https://github.com/joepurnell1/portfolio"
     >
       <div>
         <h1
-          className="sc-bZQynM gnKKYz sc-htpNat huBioS"
+          className="sc-gzVnrw thunt sc-ifAKCX cgeGlw"
         >
           This Website
         </h1>
         <p
-          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+          className="sc-htoDjs ljVdHu sc-EHOje jzXmcs"
         >
           A cheeky portfolio, utilising Gatsbyjs and React with a sprinkle of more Styled Components.
         </p>
         <p
-          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+          className="sc-htoDjs ljVdHu sc-EHOje jzXmcs"
         >
           Feel free to have a look at the repo.
         </p>
       </div>
       <div
-        className="sc-htoDjs krFKSS"
+        className="sc-dnqmqq iEqOrh"
       >
         <div
-          className="sc-dnqmqq gKySJT"
+          className="sc-iwsKbI cxRWga"
         >
           <div
-            className="sc-iwsKbI jnujCD"
+            className="sc-gZMcBi fawBcx"
           >
             <p
-              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+              className="sc-gqjmRU hQazng sc-EHOje jzXmcs"
             >
               React
             </p>
           </div>
           <div
-            className="sc-iwsKbI jnujCD"
+            className="sc-gZMcBi fawBcx"
           >
             <p
-              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+              className="sc-gqjmRU hQazng sc-EHOje jzXmcs"
             >
               GatsbyJS
             </p>
           </div>
         </div>
         <div
-          className="sc-dnqmqq gKySJT"
+          className="sc-iwsKbI cxRWga"
         >
           <div
-            className="sc-iwsKbI iwQeuv"
+            className="sc-gZMcBi gsRbfa"
           >
             <p
-              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+              className="sc-gqjmRU hQazng sc-EHOje jzXmcs"
             >
               Personal
             </p>
@@ -135,59 +135,59 @@ exports[`link component should render default as expected 1`] = `
       </div>
     </a>
     <a
-      className="sc-EHOje gQUlee"
+      className="sc-bZQynM lePrNY"
       href={null}
     >
       <div>
         <h1
-          className="sc-bZQynM gnKKYz sc-htpNat huBioS"
+          className="sc-gzVnrw thunt sc-ifAKCX cgeGlw"
         >
           TraiNap
         </h1>
         <p
-          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+          className="sc-htoDjs ljVdHu sc-EHOje jzXmcs"
         >
           Geolocation app for train passengers worried about missing their stop.
         </p>
         <p
-          className="sc-gzVnrw hTKOsC sc-ifAKCX kHXOzc"
+          className="sc-htoDjs ljVdHu sc-EHOje jzXmcs"
         >
           Built in Java for Android and Swift for iOS.
         </p>
       </div>
       <div
-        className="sc-htoDjs krFKSS"
+        className="sc-dnqmqq iEqOrh"
       >
         <div
-          className="sc-dnqmqq gKySJT"
+          className="sc-iwsKbI cxRWga"
         >
           <div
-            className="sc-iwsKbI jZushC"
+            className="sc-gZMcBi dcmtvc"
           >
             <p
-              className="sc-gZMcBi hKcNQS sc-ifAKCX kHXOzc"
+              className="sc-gqjmRU gDlOvR sc-EHOje jzXmcs"
             >
               Java
             </p>
           </div>
           <div
-            className="sc-iwsKbI jZushC"
+            className="sc-gZMcBi dcmtvc"
           >
             <p
-              className="sc-gZMcBi hKcNQS sc-ifAKCX kHXOzc"
+              className="sc-gqjmRU gDlOvR sc-EHOje jzXmcs"
             >
               Swift
             </p>
           </div>
         </div>
         <div
-          className="sc-dnqmqq gKySJT"
+          className="sc-iwsKbI cxRWga"
         >
           <div
-            className="sc-iwsKbI iwQeuv"
+            className="sc-gZMcBi gsRbfa"
           >
             <p
-              className="sc-gZMcBi igreeY sc-ifAKCX kHXOzc"
+              className="sc-gqjmRU hQazng sc-EHOje jzXmcs"
             >
               Personal
             </p>

@@ -4,19 +4,19 @@ exports[`headed section component should render default as expected 1`] = `
 <div
   className="sc-bxivhb pamPv sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
 >
-  <h1
+  <h2
     className="sc-htpNat VxWwR"
   >
     Rhymes like ours could never be stopped
-  </h1>
+  </h2>
   <div
     className="sc-bxivhb pamPv sc-bwzfXH uTxCW sc-bdVaJa cTPAwo"
   >
-    <h1
+    <h2
       className="sc-htpNat VxWwR"
     >
       
-    </h1>
+    </h2>
     Party rockers, non-stoppers, and our names are def
   </div>
 </div>

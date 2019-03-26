@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { withTheme } from 'styled-components';
 import propTypes, { defaultProps } from './propTypes';
 import ColouredContainer from '../../atoms/layout/colouredContainer';
-import Header from '../../atoms/text/header';
+import Header from '../../atoms/text/subheader';
 
 const Container = styled(ColouredContainer)`
   justify-content: flex-start;
