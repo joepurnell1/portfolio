@@ -55,7 +55,7 @@ function renderIntro(theme) {
     <HeaderContainer>
       <HeaderContentParent>
         <HeaderContentContainer>
-          <Header>{'Hi, I\'m Joe 🙋🏻‍♂️'}</Header>
+          <Header>{'Hi, I\'m Joe 🙋‍♂️'}</Header>
           <PaddedTagline colour={theme.Header.accent}>(better than your average Joe)</PaddedTagline>
           <DescriptionContainer>
             <StyledText>I’m Joe, raised in Dorset, live in London.</StyledText>
