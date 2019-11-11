@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import propTypes, { defaultProps } from './propTypes';
+import { string } from 'prop-types';
 
 const StyledImage = styled('img')`
   height: ${p => p.height};
@@ -19,7 +19,16 @@ const Image = ({
   />
 );
 
-Image.propTypes = propTypes;
-Image.defaultProps = defaultProps;
+Image.propTypes = {
+  imageSource: string.isRequired,
+  imageAlt: string.isRequired,
+  height: string,
+  width: string,
+};
+
+Image.defaultProps = {
+  height: '42px',
+  width: '42px',
+};
 
 export default styled(Image)``;

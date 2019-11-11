@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import styled, { ThemeProvider } from 'styled-components';
-import { string, node } from 'prop-types';
+import { string, node, bool } from 'prop-types';
 import Link from './link';
 import Tagline from './tagline';
 import theme from '../styles/theme';
@@ -51,9 +51,9 @@ const renderHelmet = () => (
 );
 
 const Layout = ({
-  children, headerLink,
+  children, headerLink, withFooter,
 }) => (
-  <ThemeProvider theme={theme}>
+  <ThemeProvider theme={theme} withFooter={withFooter}>
     <div>
       {renderHelmet()}
       {headerLink && (
@@ -73,13 +73,15 @@ const Layout = ({
         </NewText>
         <LinkBand />
       </PatternedContainer> */}
-      <FooterContainer
-        colour={theme.Global.textColour}
-      >
-        <FooterText colour={theme.Global.background}>
-          {`Joe Purnell © ${date.getFullYear()} | Icons by Freepik from www.flaticon.com`}
-        </FooterText>
-      </FooterContainer>
+      {
+        withFooter && (
+          <FooterContainer colour={theme.Global.textColour}>
+            <FooterText colour={theme.Global.background}>
+              {`Joe Purnell © ${date.getFullYear()} | Icons by Freepik from www.flaticon.com`}
+            </FooterText>
+          </FooterContainer>
+        )
+    }
     </div>
   </ThemeProvider>
 );
@@ -87,11 +89,13 @@ const Layout = ({
 Layout.propTypes = {
   headerLink: string,
   children: node.isRequired,
+  withFooter: bool,
 };
 
 Layout.defaultProps = {
   invert: false,
   headerLink: '',
+  withFooter: true,
 };
 
 export default Layout;
