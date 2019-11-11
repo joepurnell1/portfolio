@@ -1,9 +1,8 @@
 import React from 'react';
 import styled, { withTheme } from 'styled-components';
-import LinkBand from '../../linkBand';
-import { Header as NewHeader, Text as NewText, SmallText } from '../../typography';
-import ProjectCard from '../../projectCard';
-import { projects } from './data';
+import LinkBand from './linkBand';
+import { Header, Text, SmallText } from './typography';
+import ProjectCard from './projectCard';
 
 const PatternedContainer = styled('div')`
   display: flex;
@@ -51,32 +50,32 @@ function renderIntro() {
   return (
     <Container>
       <ContentContainer>
-        <NewHeader>Hello, I&apos;m Joe</NewHeader>
+        <Header>Hello, I&apos;m Joe</Header>
         <SmallText>
           (better than your average Joe)
         </SmallText>
         <DescriptionContainer>
-          <NewText>
+          <Text>
             Javascript Engineer
-          </NewText>
-          <NewText>
+          </Text>
+          <Text>
             Raised in Dorset. Live in London.
-          </NewText>
-          <NewText>
+          </Text>
+          <Text>
           I make things and ramble on about them.
-          </NewText>
+          </Text>
         </DescriptionContainer>
       </ContentContainer>
     </Container>
   );
 }
 
-function renderProjects() {
+function renderProjects(projects) {
   return (
     <Container>
       <ContentContainer>
-        <NewHeader>Projects</NewHeader>
-        <NewText>Here&apos;s some of the things I&apos;ve been working on:</NewText>
+        <Header>Projects</Header>
+        <Text>Here&apos;s some of the things I&apos;ve been working on:</Text>
         <ProjectsContainer>
           {
             projects.map(project => (
@@ -99,18 +98,47 @@ function renderProjects() {
   );
 }
 
-export default withTheme(({ theme }) => (
+function renderTalks(talks) {
+  const List = styled.ul``;
+  const Item = styled.li`
+    list-style-type: none;
+    text-align: center;
+    :not(:first-child) {
+      margin-top: 8px;
+    }
+  `;
+
+  return (
+    <Container>
+      <ContentContainer>
+        <Header>Talks</Header>
+        <List>
+          {
+            talks.map(talk => (
+              <Item>
+                <Text>{`${talk.title} | ${talk.location} | ${talk.date}`}</Text>
+              </Item>
+            ))
+          }
+        </List>
+      </ContentContainer>
+    </Container>
+  );
+}
+
+export default withTheme(({ theme, projects, talks }) => (
   <div>
     {renderIntro(theme)}
-    {renderProjects()}
+    {renderProjects(projects)}
+    {renderTalks(talks)}
     <PatternedContainer
       id="sayHi"
       backgroundColour={theme.Homepage.highlightedBackground}
     >
-      <NewHeader colour="#fff">Get in touch</NewHeader>
-      <NewText colour="#fff">
+      <Header colour="#fff">Get in touch</Header>
+      <Text colour="#fff">
             Here&apos;s all the links...
-      </NewText>
+      </Text>
       <LinkBand />
     </PatternedContainer>
   </div>

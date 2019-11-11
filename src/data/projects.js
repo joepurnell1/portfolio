@@ -1,4 +1,4 @@
-export const projects = [{
+export default [{
   backgroundColour: '#0e9cf2',
   tags: ['React Native'],
   textColour: '#fff',
@@ -37,5 +37,3 @@ export const projects = [{
     'Built in Java for Android and Swift for iOS.',
   ],
 }];
-
-export const talks = [];

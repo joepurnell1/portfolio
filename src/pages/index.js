@@ -1,8 +1,10 @@
 import React from 'react';
 import { injectGlobal } from 'styled-components';
 import Layout from '../components/layout';
-import Homepage from '../components/pages/homepage';
+import Homepage from '../components/homepage';
 import * as fonts from '../fonts';
+import projects from '../data/projects';
+import talks from '../data/talks';
 
 /* eslint-disable */
   injectGlobal`
@@ -25,7 +27,7 @@ import * as fonts from '../fonts';
 const Page = () => (
   <div>
     <Layout headerLink="#sayHi">
-      <Homepage />
+      <Homepage projects={projects} talks={talks} />
     </Layout>
   </div>
 );
