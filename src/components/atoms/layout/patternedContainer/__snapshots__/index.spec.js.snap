@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`patterned container component should render default as expected 1`] = `
-<div
-  className="sc-bwzfXH uTxCW sc-bdVaJa ejTkdH"
->
-  When Im watchin my TV and a man comes on and tells me
-</div>
-`;
