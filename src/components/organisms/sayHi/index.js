@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { withTheme } from 'styled-components';
 import propTypes, { defaultProps } from './propTypes';
-import SubheaderWithTagline from '../../molecules/subheaderWithTagline';
+import { Header } from '../../typography';
 
 const Container = styled('div')`
   display: flex;
@@ -90,11 +90,7 @@ class SayHiForm extends Component {
 
     return (
       <Container name="sayHi">
-        <SubheaderWithTagline
-          colour={theme.ColouredInfoBand.textColour}
-          headerText="Say Hi"
-          taglineText="Want to collaborate, chat, or work together?"
-        />
+        <Header colour={theme.ColouredInfoBand.textColour}>Say Hi</Header>
         <ContactContentContainer>
           <StyledForm
             name="contact"

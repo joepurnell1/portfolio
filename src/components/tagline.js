@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import propTypes, { defaultProps } from './propTypes';
+import { string } from 'prop-types';
 
 const TaglineText = styled('h4')`
   font-size: 1em;
@@ -8,7 +8,13 @@ const TaglineText = styled('h4')`
   margin: 0;
 `;
 
-TaglineText.propTypes = propTypes;
-TaglineText.defaultProps = defaultProps;
+
+TaglineText.propTypes = {
+  colour: string,
+};
+
+TaglineText.defaultProps = {
+  colour: '#FFFFFF',
+};
 
 export default TaglineText;

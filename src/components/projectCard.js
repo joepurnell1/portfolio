@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { Text, SmallText } from '../../typography';
+import { Text, SmallText } from './typography';
 
 const ProjectCard = styled('a')`
   display: flex;

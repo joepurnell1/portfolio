@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Image from '../components/atoms/image';
 import Header from '../components/atoms/text/header';
 import Text from '../components/atoms/text/text';
-import Link from '../components/atoms/link';
+import Link from '../components/link';
 import ColouredContainer from '../components/atoms/layout/colouredContainer';
 import Surprise from '../images/icons/surprise.svg';
 import theme from '../styles/theme';

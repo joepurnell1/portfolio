@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import propTypes from './propTypes';
 import HeaderText from '../../atoms/text/header';
-import TaglineText from '../../atoms/text/tagline';
+import TaglineText from '../../tagline';
 
 const PaddedTagline = styled(TaglineText)`
   padding-top: 0.7em;

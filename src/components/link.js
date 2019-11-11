@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import propTypes, { defaultProps } from './propTypes';
+import { string, node, bool } from 'prop-types';
 
 const StyledLink = styled('a')`
   background: ${props => (props.invert ? props.theme.Link.accent : props.theme.Global.background)};
@@ -27,7 +27,14 @@ const Link = ({ href, invert, children }) => (
   </StyledLink>
 );
 
-Link.propTypes = propTypes;
-Link.defaultProps = defaultProps;
+Link.propTypes = {
+  href: string.isRequired,
+  children: node.isRequired,
+  invert: bool,
+};
+
+Link.defaultProps = {
+  invert: false,
+};
 
 export default styled(Link)``;

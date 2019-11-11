@@ -1,44 +1,31 @@
 import React from 'react';
 import styled, { withTheme } from 'styled-components';
-import Text from '../../atoms/text/text';
-import PatternedContainer from '../../atoms/layout/patternedContainer';
-import Projects from '../../organisms/projects';
-import SayHi from '../../organisms/sayHi';
-import LinkBand from '../../molecules/linkBand';
-import Header from '../../atoms/text/header';
-import TaglineText from '../../atoms/text/tagline';
+import LinkBand from '../../linkBand';
+import { Header as NewHeader, Text as NewText, SmallText } from '../../typography';
+import ProjectCard from '../../projectCard';
+import { projects } from './data';
 
-const PaddedTagline = styled(TaglineText)`
-  padding-top: 0.7em;
-`;
-
-const StyledText = styled(Text)`
-  padding: 16px 0 0 0;
-
-  @media (max-width: 420px) {
-    padding: 16px 8px 0 8px;
-  }
-`;
-
-const PaddedPatternedContainer = styled(PatternedContainer)`
+const PatternedContainer = styled('div')`
+  display: flex;
+  min-height: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e84855;
   margin-top: 50px;
-  padding: 16px 0 16px 0;
+  min-height: 270px;
 `;
 
-const HeaderContainer = styled.div`
+const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 56px;
-`;
-
-const HeaderContentParent = styled.div`
-  display: flex;
   padding-left: 16px;
   padding-right: 16px;
 `;
 
-const HeaderContentContainer = styled.div`
+const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,40 +33,85 @@ const HeaderContentContainer = styled.div`
 `;
 
 const DescriptionContainer = styled.div`
+  margin-top: 32px;
   max-width: 500px;
   text-align: flex-start;
 `;
 
-function renderIntro(theme) {
+const ProjectsContainer = styled('div')`
+  display: flex;
+  max-width: 1100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  justify-content: center;
+`;
+
+function renderIntro() {
   return (
-    <HeaderContainer>
-      <HeaderContentParent>
-        <HeaderContentContainer>
-          <Header>{'Hi, I\'m Joe 🙋‍♂️'}</Header>
-          <PaddedTagline colour={theme.Header.accent}>(better than your average Joe)</PaddedTagline>
-          <DescriptionContainer>
-            <StyledText>I’m Joe, raised in Dorset, live in London.</StyledText>
-            <StyledText>
-              I’m an passionate developer who loves new technologies,
-              tinkering with code, and creating cool projects.
-            </StyledText>
-            <StyledText>
-              As a friendly guy I’m happy to chat about any projects you have.
-            </StyledText>
-          </DescriptionContainer>
-          <LinkBand />
-        </HeaderContentContainer>
-      </HeaderContentParent>
-    </HeaderContainer>
+    <Container>
+      <ContentContainer>
+        <NewHeader>Hello, I&apos;m Joe</NewHeader>
+        <SmallText>
+          (better than your average Joe)
+        </SmallText>
+        <DescriptionContainer>
+          <NewText>
+            Javascript Engineer
+          </NewText>
+          <NewText>
+            Raised in Dorset. Live in London.
+          </NewText>
+          <NewText>
+          I make things and ramble on about them.
+          </NewText>
+        </DescriptionContainer>
+      </ContentContainer>
+    </Container>
+  );
+}
+
+function renderProjects() {
+  return (
+    <Container>
+      <ContentContainer>
+        <NewHeader>Projects</NewHeader>
+        <NewText>Here&apos;s some of the things I&apos;ve been working on:</NewText>
+        <ProjectsContainer>
+          {
+            projects.map(project => (
+              <ProjectCard
+                key={project.projectTitle}
+                backgroundColour={project.backgroundColour}
+                tags={project.tags}
+                textColour={project.textColour}
+                tagColour={project.tagColour}
+                tagTextColour={project.tagTextColour}
+                projectTitle={project.projectTitle}
+                projectText={project.projectText}
+                projectType={project.projectType}
+              />
+            ))
+          }
+        </ProjectsContainer>
+      </ContentContainer>
+    </Container>
   );
 }
 
 export default withTheme(({ theme }) => (
   <div>
     {renderIntro(theme)}
-    <Projects />
-    <PaddedPatternedContainer backgroundColour={theme.Homepage.highlightedBackground}>
-      <SayHi />
-    </PaddedPatternedContainer>
+    {renderProjects()}
+    <PatternedContainer
+      id="sayHi"
+      backgroundColour={theme.Homepage.highlightedBackground}
+    >
+      <NewHeader colour="#fff">Get in touch</NewHeader>
+      <NewText colour="#fff">
+            Here&apos;s all the links...
+      </NewText>
+      <LinkBand />
+    </PatternedContainer>
   </div>
 ));

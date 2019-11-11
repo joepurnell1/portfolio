@@ -2,8 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import styled, { ThemeProvider } from 'styled-components';
 import { string, node } from 'prop-types';
-import Link from './atoms/link';
-import Tagline from './atoms/text/tagline';
+import Link from './link';
+import Tagline from './tagline';
 import theme from '../styles/theme';
 
 const Container = styled('header')`
@@ -63,6 +63,16 @@ const Layout = ({
       )
       }
       {children}
+      {/* <PatternedContainer
+        id="sayHi"
+        backgroundColour={theme.Homepage.highlightedBackground}
+      >
+        <NewHeader colour="#fff">Get in touch</NewHeader>
+        <NewText colour="#fff">
+              Here&apos;s all the links...
+        </NewText>
+        <LinkBand />
+      </PatternedContainer> */}
       <FooterContainer
         colour={theme.Global.textColour}
       >

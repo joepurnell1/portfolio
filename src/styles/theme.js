@@ -10,6 +10,13 @@ const colours = {
 };
 
 export default {
+  typography: {
+    headerColour: colours.accentPink,
+    heavyWeight: 600,
+    textColour: colours.darkestBlue,
+    smallTextColour: colours.accentPink,
+  },
+
   Global: {
     background: colours.white,
     textColour: colours.darkestBlue,

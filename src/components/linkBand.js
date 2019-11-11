@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import SwellingImageLink from '../swellingImageLink';
-import Github from '../../../images/social/github.svg';
-import Twitter from '../../../images/social/twitter.svg';
-import Linkedin from '../../../images/social/linkedin.svg';
-import Mail from '../../../images/social/mail.svg';
+import SwellingImageLink from './swellingImageLink';
+import Github from '../images/social/github.svg';
+import Twitter from '../images/social/twitter.svg';
+import Linkedin from '../images/social/linkedin.svg';
+import Mail from '../images/social/mail.svg';
 
 const LinkBand = styled('div')`
   min-width: 300px;
-  max-width: 450px;
+  max-width: 350px;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -16,8 +16,8 @@ const LinkBand = styled('div')`
 `;
 
 const SwellingLink = styled(SwellingImageLink).attrs({
-  size: '50px',
-  hoverSize: '55px',
+  size: '40px',
+  hoverSize: '45px',
 })``;
 
 const ColouredInfoBand = () => (
