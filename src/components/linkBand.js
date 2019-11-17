@@ -12,7 +12,7 @@ const LinkBand = styled('div')`
   width: 80%;
   display: flex;
   justify-content: space-between;
-  margin-top: 32px;
+  margin-top: 16px;
 `;
 
 const SwellingLink = styled(SwellingImageLink).attrs({

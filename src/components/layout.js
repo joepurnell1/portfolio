@@ -1,101 +1,94 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import styled, { ThemeProvider } from 'styled-components';
-import { string, node, bool } from 'prop-types';
-import Link from './link';
-import Tagline from './tagline';
-import theme from '../styles/theme';
+import React from "react"
+import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
+import theme from "./theme";
+import * as fonts from '../fonts';
+import PropTypes from "prop-types"
+import Footer from "./footer";
+import Header from "./header"
 
-const Container = styled('header')`
-  background: ${props => (props.invert ? props.theme.Header.accent : props.theme.Global.background)};
-  display: flex;
-  justify-content: flex-end;
-  padding: 2px;
-  padding-right: 16px;
-  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 6px 0px;
+const GlobalStyle = createGlobalStyle`
+  @font-face {
+    font-family: 'Notosans';
+    src:
+      local('Notosans'), url('${fonts.Notosans}') format('woff');
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src:
+      local('Poppins'), url('${fonts.Poppins}') format('woff');
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+  }
 `;
 
-const FooterContainer = styled('footer')`
-  justify-content: center;
+const Page = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+  box-sizing: border-box;
+`;
+
+export const Title = styled.h1`
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  font-weight: bold;
+  color: #011627;
+  z-index: 1;
+  width: 90%;
+  text-align: center;
+  margin-top: 0;
+
+  @media (max-width: ${p=> p.theme.breakpoints.medium}) {
+    font-size: 1.75rem;
+    margin-top: 15px;
+  }
+
+  @media (min-width: ${p=> p.theme.breakpoints.medium}) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: ${p=> p.theme.breakpoints.large}) {
+    font-size: 4rem;
+  }
+`;
+
+const Content = styled.main`
+  margin-top: -42px;
+  display: flex;
   align-items: center;
-  background-color: ${p => p.colour};
-  display: flex;
-  padding: 4px;
-  padding-right: 16px;
+  flex-direction: column;
+  flex: 1;
 `;
 
-const StyledLink = styled(Link)`
-  margin-right: 2em;
-  align-self: flex-end;
-`;
-
-const FooterText = styled(Tagline)`
-  font-size: 0.75em;
-`;
-
-const date = new Date();
-
-const renderHelmet = () => (
-  <Helmet>
-    <title>Personal Website and Portfolio for Joe Purnell</title>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Have a glimpse into the work of fullstack developer, Joe Purnell." />
-    <meta name="keywords" content="portfolio, fullstack, developer, web, mobile, apps, software" />
-    <meta name="author" content="Joe Purnell" />
-    <meta name="og:title" content="Personal Website and Portfolio for Joe Purnell" />
-    <meta name="og:site_name" content="Joe Purnell's Portfolio" />
-    <meta name="og:description" content="Have a glimpse into the work of fullstack developer, Joe Purnell." />
-    <meta name="lang" content="en" />
-    <meta name="xml:lang" content="en" />
-  </Helmet>
-);
-
-const Layout = ({
-  children, headerLink, withFooter,
-}) => (
-  <ThemeProvider theme={theme} withFooter={withFooter}>
-    <div>
-      {renderHelmet()}
-      {headerLink && (
-        <Container invert>
-          <StyledLink href={headerLink}>Say Hi</StyledLink>
-        </Container>
-      )
-      }
-      {children}
-      {/* <PatternedContainer
-        id="sayHi"
-        backgroundColour={theme.Homepage.highlightedBackground}
-      >
-        <NewHeader colour="#fff">Get in touch</NewHeader>
-        <NewText colour="#fff">
-              Here&apos;s all the links...
-        </NewText>
-        <LinkBand />
-      </PatternedContainer> */}
-      {
-        withFooter && (
-          <FooterContainer colour={theme.Global.textColour}>
-            <FooterText colour={theme.Global.background}>
-              {`Joe Purnell © ${date.getFullYear()} | Icons by Freepik from www.flaticon.com`}
-            </FooterText>
-          </FooterContainer>
-        )
-    }
-    </div>
-  </ThemeProvider>
-);
+const Layout = ({ children, shadowText, title }) => {
+  return (
+    <ThemeProvider theme={theme}>
+      <Page>
+        <GlobalStyle />
+        <Header shadowText={shadowText} title={title} />
+        <Content>
+          <Title>{title}</Title>
+            {children}
+        </Content>
+        <Footer />
+      </Page>
+    </ThemeProvider>
+  )
+}
 
 Layout.propTypes = {
-  headerLink: string,
-  children: node.isRequired,
-  withFooter: bool,
-};
+  children: PropTypes.node.isRequired,
+}
 
-Layout.defaultProps = {
-  invert: false,
-  headerLink: '',
-  withFooter: true,
-};
-
-export default Layout;
+export default Layout

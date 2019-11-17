@@ -1,20 +1,39 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://vigorous-blackwell-2e8597.netlify.com/',
+    title: `The portfolio of Joe Purnell`,
+    description: `The personal site and stomping ground of Joe Purnell`,
+    author: `Joe Purnell`,
+    siteUrl: 'https://joepurnell.dev',
+    social: {
+      twitter: '@joepurnell8',
+    },
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-styled-components',
-    },
-    'gatsby-plugin-eslint',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-favicon',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        // logo: './src/favicon.png',
-        logo: './src/images/icons/surprise.svg',
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `The portfolio of Joe Purnell`,
+        short_name: `joepurnell.dev`,
+        start_url: `/`,
+        display: `standalone`,
+        icon: `src/images/favicon.png`,
+      },
+    },
+    {
+      resolve: "gatsby-source-dev",
+      options: {
+        username: 'joepurnell1'
+      }
+    }
   ],
-};
+}

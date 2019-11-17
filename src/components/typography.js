@@ -22,6 +22,14 @@ export const Text = styled('p')`
   padding: ${p => (p.padding ? p.padding : 0)};
 `;
 
+export const Title = styled(Text).attrs({
+  as: 'h3',
+})`
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+`;
+
 export const SmallText = styled(Text)`
   font-size: 14px;
   color: ${p => (p.colour ? p.colour : p.theme.typography.smallTextColour)};
