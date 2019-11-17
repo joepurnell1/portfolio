@@ -32,6 +32,10 @@ const Content = styled.article`
   a {
     color: ${p => p.theme.typography.link.specialColour};
   }
+
+  @media (min-width: ${p=> p.theme.breakpoints.large}) {
+    width: 65%;
+  }
 `;
 
 const Info = styled.div`

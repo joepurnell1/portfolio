@@ -60,6 +60,7 @@ export const Title = styled.h1`
 
   @media (min-width: ${p=> p.theme.breakpoints.large}) {
     font-size: 4rem;
+    width: 80%
   }
 `;
 
