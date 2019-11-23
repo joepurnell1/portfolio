@@ -116,7 +116,7 @@ const IndexPage = ({ data }) => {
           <Header>Projects</Header>
           <Text>Here&apos;s some of the things I&apos;ve been working on:</Text>
             {
-              projects.map(project => (
+              projects.slice(0, 3).map(project => (
                 <Project title={project.title} key={project.title} colour={project.colour} altColour={project.altColour} linkText={project.linkText} link={project.link}>
                   {project.body()}
                 </Project>

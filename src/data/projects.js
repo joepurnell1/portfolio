@@ -18,6 +18,14 @@ export default [
     link: 'https://github.com/joepurnell1/portfolio',
   },
   {
+    title: 'What Play',
+    body: () => (<><p>A quick and dirty webapp using <span>NextJS</span> where you can use your <span>Steam</span> credentials to find a game you and your friends own</p></>),
+    colour: '#26ebe3',
+    altColour: '#f77ca0',
+    linkText: 'Visit What Play',
+    link: 'https://whatplay.co',
+  },
+  {
     title: 'TraiNap',
     body: () => (<><p>An app for train passengers worried about missing their stop utilising <span>geolocation</span> to send them an alert.</p><p><span>Built natively</span> in Java for Android and Swift for iOS.</p></>),
     colour: '#26ebe3',
