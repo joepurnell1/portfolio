@@ -33,11 +33,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf public ; gatsby build",
+    "build": "yarn clean ; rm -rf public ; gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "clean": "gatsby clean"
   }
 }
