@@ -36,6 +36,15 @@ const Content = styled.article`
   @media (min-width: ${p=> p.theme.breakpoints.large}) {
     width: 65%;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+
+    @media (min-width: ${p=> p.theme.breakpoints.large}) {
+      width: 75%;
+    }
+  }
 `;
 
 const Info = styled.div`
