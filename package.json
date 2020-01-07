@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "description": "The personal site of Joe Purnell",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Joe Purnell <joepurnell1@gmail.com>",
   "homepage": "https://joepurnell.dev",
   "dependencies": {
