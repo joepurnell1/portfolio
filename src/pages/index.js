@@ -143,7 +143,7 @@ const IndexPage = ({ data }) => {
           </List>
         </ContentContainer>
       </Container>
-      {/* <Container>
+      <Container>
         <ContentContainer>
           <Header>Spoken Rambles</Header>
           <PaddedSmallText>Speaking engagements:</PaddedSmallText>
@@ -157,7 +157,7 @@ const IndexPage = ({ data }) => {
             }
           </List>
         </ContentContainer>
-      </Container> */}
+      </Container>
     </Layout>
   );
 };
