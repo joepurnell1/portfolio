@@ -2,11 +2,10 @@ import React from "react"
 import styled from "styled-components";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout"
-import { Header, Text, SmallText } from "../components/typography";
+import { Text } from "../components/typography";
 import SEO from "../components/seo"
-import Project from "../components/project";
-import projects from '../data/projects';
-import talks from '../data/talks';
+import { Contact } from "../components/contact";
+import me from "../images/me.jpg"
 
 const Container = styled.section`
   display: flex;
@@ -14,148 +13,119 @@ const Container = styled.section`
   justify-content: center;
   padding-left: 16px;
   padding-right: 16px;
-  margin-top: 24px;
+  /* padding-top: 42px; */
 `;
 
 const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   flex: 1;
-  text-align: flex-start;
+  text-align: left;
+  width: 100%;
 `;
 
 const DescriptionContainer = styled.div`
   max-width: 500px;
   text-align: flex-start;
+  margin-top: 16px;
 `;
 
-const List = styled.ul`
-  padding-inline-start: 0;
-`;
-
-const Item = styled.li`
-  list-style-type: none;
+const Navlink = styled(Link)`
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  font-weight: bold;
+  color: #011627;
+  z-index: 1;
+  width: 100%;
   text-align: left;
+
+  :not(last-child) {
+    margin-right: 32px;
+    @media (max-width: 700px) {
+      margin-bottom: 24px;
+    margin-right: 0
+  }
+  }
+
+  &:hover {
+    color: ${p => p.theme.typography.headerColour};
+  }
+`;
+
+const Title = styled.h1`
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  font-weight: bold;
+  color: #011627;
+  z-index: 1;
+  width: 100%;
+  text-align: left;
+
+  @media (max-width: ${p=> p.theme.breakpoints.medium}) {
+    font-size: 4rem;
+  }
+`;
+
+const Nav = styled.nav`
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  @media (max-width: 700px) {
+    flex-wrap: wrap;
+  }
+  margin-top: 48px;
+  margin-bottom: 64px;
+`;
+
+const InfoText = styled(Text)`
   :not(:first-child) {
     margin-top: 8px;
   }
 `;
 
-const CenterItem = styled(Item)`
-  display: flex;
-  justify-content: center;
-  padding-top: 8px;
-`;
-
-const PaddedSmallText = styled(SmallText)`
-  padding-top: 8px;
-`;
-
-const SpecialLink = styled(Link)`
-  font-family: Notosans;
-  color: ${p => p.theme.typography.link.specialColour};
-  margin: ${p => p.margin && p.margin};
-
-  &:hover {
-    background-image: linear-gradient(to right, #26ebe3cc, #26ebe380);
-    background-position: 1.2em 0;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: -0.2em 0;
-    box-shadow: inset 0 .5em 0 0 #00000000;
-  }
-
-  &:visited {
-    color: ${p => p.theme.typography.link.specialColour};
-  }
-`;
-
-const ColouredLink = styled(Link)`
-  font-family: Notosans;
-  color: ${p => p.theme.typography.link.standardColour};
-  text-decoration-color: ${p => p.theme.typography.link.fancyLines[p.colourindex]};
-
-  &:visited {
-    color: ${p => p.theme.typography.link.standardColour};
-    text-decoration-color: ${p => p.theme.typography.link.fancyLines[p.colourindex]};
-  }
-
-  &:hover {
-    background-image: linear-gradient(to right, #f77ca0cc, #f77ca080);
-    background-position: 1.2em 0;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: -0.2em 0;
-    box-shadow: inset 0 .5em 0 0 #00000000;
-  }
+const Image = styled.img`
+  height: auto:
+  width: 90%;
+  max-width: 280px;
+  margin-bottom: 24px;
 `;
 
 const IndexPage = ({ data }) => {
-  const blogPosts = data.allDevArticles.edges;
   return (
-    <Layout shadowText="Hello&#x200b;There." title="I'm Joe">
+    <Layout>
       <SEO title="Home" />
       <Container>
         <ContentContainer>
+          <Image src={me} />
+          <Title>I'm Joe</Title>
           <DescriptionContainer>
-            <Text>
-              Javascript Engineer
-            </Text>
-            <Text>
+            <InfoText>
+              Javascript Engineer & all round creator
+            </InfoText>
+            <InfoText>
               Raised in Dorset. Live in London.
-            </Text>
-            <Text>
-            I make things and ramble on about them.
-            </Text>
+            </InfoText>
+            <InfoText>
+              I make things and ramble on about them.
+            </InfoText>
+            <InfoText>
+              If I'm not coding, I'm usually cooking, gaming, looking at dogs on the internet, or fighting the urge to buy Lego.
+            </InfoText>
           </DescriptionContainer>
-        </ContentContainer>
-      </Container>
-      <Container>
-        <ContentContainer>
-          <Header>Projects</Header>
-          <Text>Here&apos;s some of the things I&apos;ve been working on:</Text>
-            {
-              projects.slice(0, 3).map(project => (
-                <Project title={project.title} key={project.title} colour={project.colour} altColour={project.altColour} linkText={project.linkText} link={project.link}>
-                  {project.body()}
-                </Project>
-              ))
-            }
-            <SpecialLink to="/projects" margin="16px 0 16px 0">View All Projects</SpecialLink>
-        </ContentContainer>
-      </Container>
-      <Container>
-        <ContentContainer>
-          <Header>Written Rambles</Header>
-          <PaddedSmallText>Here's a few recent articles:</PaddedSmallText>
-          <List>
-            {
-              blogPosts.map((entry, index) => (
-                <Item key={entry.node.article.id}>
-                  <ColouredLink to={`/blog/${entry.node.article.slug.substring(0, entry.node.article.slug.lastIndexOf('-'))}`} colourindex={index}>{entry.node.article.title}</ColouredLink>
-                </Item>
-              ))
-            }
-            <CenterItem>
-              <SpecialLink to="/blog">View All Blog Posts</SpecialLink>
-            </CenterItem>
-          </List>
-        </ContentContainer>
-      </Container>
-      <Container>
-        <ContentContainer>
-          <Header>Spoken Rambles</Header>
-          <PaddedSmallText>Speaking engagements:</PaddedSmallText>
-          <List>
-            {
-              talks.map(talk => (
-                <Item key={talk.date}>
-                  <Text>{`${talk.title} | ${talk.location} | ${talk.date}`}</Text>
-                </Item>
-              ))
-            }
-          </List>
+      <Nav>
+        <Navlink to="/projects" margin="16px 0 16px 0">Projects</Navlink>
+        <Navlink to="/blog">Rambles</Navlink>
+      </Nav>
+        <Contact />
         </ContentContainer>
       </Container>
     </Layout>

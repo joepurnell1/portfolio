@@ -21,14 +21,34 @@ const ContentContainer = styled.div`
   align-items: center;
   flex: 1;
   text-align: flex-start;
+  max-width: 600px;
+`;
+
+const Title = styled.h1`
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  font-weight: bold;
+  color: #011627;
+  z-index: 1;
+  width: 100%;
+  text-align: left;
+
+  @media (max-width: ${p=> p.theme.breakpoints.medium}) {
+    font-size: 4rem;
+  }
 `;
 
 const IndexPage = ({ data }) => {
   return (
-    <Layout shadowText="Projects" title="Some things I&apos;ve been working on:">
+    <Layout>
       <SEO title="Projects" />
       <Container>
         <ContentContainer>
+        <Title>Things I&apos;ve been working on</Title>
             {
               projects.map(project => (
                 <Project title={project.title} colour={project.colour} altColour={project.altColour} linkText={project.linkText} link={project.link}>

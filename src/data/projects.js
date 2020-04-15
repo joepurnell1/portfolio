@@ -2,6 +2,14 @@ import React from 'react';
 
 export default [
   {
+    title: 'our cookbook',
+    body: () => (<p>A place for everyone to share the food they love to make. Built with <span>Gatsbyjs</span> and drool.</p>),
+    colour: '#26ebe3',
+    altColour: '#f77ca0',
+    linkText: 'Visit our cookbook',
+    link: 'https://ourcookbook.co'
+  },
+  {
     title: 'DREAMpath',
     body: () => (<p><span>Commissioned project</span> integrating with Apple's HealthKit. Using <span>React Native</span>, Redux, and Styled Components.</p>),
     colour: '#26ebe3',

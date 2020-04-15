@@ -14,12 +14,13 @@ export const Header = styled('h1')`
 `;
 
 export const Text = styled('p')`
-  font-size: 16px;
+  font-size: 20px;
   font-weight: ${p => (p.strong && p.theme.typography.heavyWeight)};
   font-family: Notosans;
   color: ${p => (p.colour ? p.colour : p.theme.typography.textColour)};
   margin: ${p => (p.margin ? p.margin : 0)};
   padding: ${p => (p.padding ? p.padding : 0)};
+  text-align: left;
 `;
 
 export const Title = styled(Text).attrs({

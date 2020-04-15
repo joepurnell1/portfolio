@@ -23,25 +23,16 @@ const Content = styled.div`
   }
 
   span {
-    background-image: linear-gradient(to right, ${p => p.altColour}cc, ${p => p.altColour}80);
-    background-position: 1.2em 0;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: -0.2em 0;
-    box-shadow: inset 0 .5em 0 0 #00000000;
+    font-weight: bold;
   }
 `;
 
 const StyledTitle = styled(Title)`
   margin-bottom: 4px;
-  color: ${p => (p.theme.typography.textColour)};
+  color: ${p => p.theme.typography.headerColour};
+  font-size: 20px;
   span {
-    background-image: linear-gradient(to right, ${p => p.colour}cc, ${p => p.colour}80);
-    background-position: 1.2em 0;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: -0.2em 0;
-    box-shadow: inset 0 .5em 0 0 #00000000;
+    font-weight: bold;
   }
 `;
 

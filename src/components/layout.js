@@ -33,10 +33,11 @@ const Page = styled.div`
   flex: 1;
   min-height: 100vh;
   box-sizing: border-box;
+  padding-top: 36px;
 `;
 
 export const Title = styled.h1`
-  margin: 0;
+  margin: 0 16px;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 6rem;
@@ -45,27 +46,15 @@ export const Title = styled.h1`
   font-weight: bold;
   color: #011627;
   z-index: 1;
-  width: 90%;
-  text-align: center;
-  margin-top: 0;
+  width: 100%;
+  text-align: left;
 
   @media (max-width: ${p=> p.theme.breakpoints.medium}) {
-    font-size: 1.75rem;
-    margin-top: 15px;
-  }
-
-  @media (min-width: ${p=> p.theme.breakpoints.medium}) {
-    font-size: 2rem;
-  }
-
-  @media (min-width: ${p=> p.theme.breakpoints.large}) {
     font-size: 4rem;
-    width: 80%
   }
 `;
 
 const Content = styled.main`
-  margin-top: -42px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -77,9 +66,9 @@ const Layout = ({ children, shadowText, title }) => {
     <ThemeProvider theme={theme}>
       <Page>
         <GlobalStyle />
-        <Header shadowText={shadowText} title={title} />
+        {/* <Header shadowText={shadowText} title={title} /> */}
         <Content>
-          <Title>{title}</Title>
+          <header style={{ maxWidth: '600px', alignSelf: 'center', }}><Title>{title}</Title></header>
             {children}
         </Content>
         <Footer />

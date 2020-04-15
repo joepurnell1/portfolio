@@ -10,7 +10,7 @@ const colours = {
 
   // new
   pinkish: '#f77ca0',
-  solidPinkish: '#f7638e',
+  solidPinkish: '#ff5158',
   leblue: '#26ebe3',
 };
 

@@ -19,6 +19,7 @@ const ContentContainer = styled.div`
   align-items: center;
   flex: 1;
   text-align: flex-start;
+  max-width: 600px;
 `;
 
 const List = styled.ul`
@@ -73,14 +74,33 @@ const ColouredLink = styled(Link)`
   }
 `;
 
+const Title = styled.h1`
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  font-weight: bold;
+  color: #011627;
+  z-index: 1;
+  width: 100%;
+  text-align: left;
+
+  @media (max-width: ${p=> p.theme.breakpoints.medium}) {
+    font-size: 4rem;
+  }
+`;
+
 const BlogPage = ({ data }) => {
   const blogPosts = data.allDevArticles.edges;
   return (
-    <Layout shadowText="Blog" title="Here are all of my rambles">
+    <Layout>
       <SEO title="Blog" />
       <Container>
         <ContentContainer>
           <List>
+          <Title>Here's all my rambles</Title>
             <CenterItem>
               <SpecialLink href={`https://dev.to/${blogPosts[0].node.article.user.username}`}>View blog over at DEV</SpecialLink>
             </CenterItem>
