@@ -15,9 +15,8 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       }
   `);
-
   result.data.allDevArticles.nodes.forEach(node => {
-
+    console.log('n', node);
     const {slug, id} = node.article;
 
     createPage({
