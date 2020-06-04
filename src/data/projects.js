@@ -2,6 +2,14 @@ import React from 'react';
 
 export default [
   {
+    title: 'Speak friend and enter',
+    body: () => (<p>I took time to learn D3 and visualise data gathered from the Lord of the Rings scripts.</p>),
+    colour: '#26ebe3',
+    altColour: '#f77ca0',
+    linkText: 'Visit project',
+    link: 'https://speak-friend-and-enter.netlify.app/'
+  },
+  {
     title: 'our cookbook',
     body: () => (<p>A place for everyone to share the food they love to make. Built with <span>Gatsbyjs</span> and drool.</p>),
     colour: '#26ebe3',
