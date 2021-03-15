@@ -10,8 +10,9 @@ import "./code-styles.css";
 
 const Content = styled.article`
   width: 90%;
+  max-width: 650px;
 
-  font-size: 16px;
+  font-size: 20px;
   font-family: Notosans;
   color: ${(p) => p.theme.typography.textColour};
 
@@ -35,6 +36,10 @@ const Content = styled.article`
     color: ${(p) => p.theme.typography.link.specialColour};
   }
 
+  a:hover {
+    color: ${(p) => p.theme.typography.link.standardColour};
+  }
+
   @media (min-width: ${(p) => p.theme.breakpoints.large}) {
     width: 65%;
   }
@@ -51,6 +56,7 @@ const Content = styled.article`
 
 const Info = styled.div`
   width: 90%;
+  max-width: 700px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -96,7 +102,7 @@ const Title = styled.h1`
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 4.5rem;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.06em;
   line-height: 1;
   font-weight: bold;
   color: #011627;
@@ -104,6 +110,7 @@ const Title = styled.h1`
   width: 90%;
   text-align: left;
   margin-bottom: 36px;
+  max-width: 700px;
 
   @media (max-width: ${(p) => p.theme.breakpoints.medium}) {
     font-size: 3rem;

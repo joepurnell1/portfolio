@@ -9,12 +9,11 @@ const ContentContainer = styled.section`
   align-items: flex-start;
   flex: 1;
   text-align: flex-start;
-  margin: 56px 0 0 0;
 `;
 
 export const Contact = () => (
   <ContentContainer>
-    <Text as="h2">Here's all the links...</Text>
+    {/* <Text as="h2">Here's all the links...</Text> */}
     <LinkBand />
   </ContentContainer>
 );

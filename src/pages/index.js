@@ -5,7 +5,6 @@ import Layout from "../components/layout";
 import { Text } from "../components/typography";
 import SEO from "../components/seo";
 import { Contact } from "../components/contact";
-import me from "../images/me.jpg";
 
 const Container = styled.section`
   display: flex;
@@ -27,38 +26,30 @@ const ContentContainer = styled.div`
 
 const HeaderBlock = styled.div`
   display: flex;
-
-  @media (max-width: 700px) {
-    flex-direction: column;
-  }
+  width: 100%;
 `;
 
 const DescriptionContainer = styled.div`
-  max-width: 500px;
   text-align: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: space-between;
-  padding-left: 16px;
-
-  @media (max-width: 700px) {
-    padding-left: 0;
-  }
+  width: 100%;
 `;
 
 const Navlink = styled(Link)`
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.05em;
   line-height: 1;
   font-weight: bold;
   color: #011627;
   z-index: 1;
   width: 100%;
   text-align: left;
-  margin-top: 16px;
+  margin-top: 32px;
 
   :not(last-child) {
     @media (max-width: 700px) {
@@ -92,7 +83,7 @@ const Title = styled.h1`
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 4rem;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.05em;
   line-height: 1;
   font-weight: bold;
   color: #011627;
@@ -124,18 +115,8 @@ const InfoText = styled(Text)`
   }
 `;
 
-const Image = styled.img`
-  height: auto;
-  width: 90%;
-  max-width: 175px;
-
-  @media (max-width: 700px) {
-    margin-bottom: 24px;
-  }
-`;
-
 const List = styled.ul`
-  margin-top: 56px;
+  margin-top: 48px;
   padding-inline-start: 0;
 `;
 
@@ -179,13 +160,13 @@ const IndexPage = ({ data }) => {
       <Container>
         <ContentContainer>
           <HeaderBlock>
-            <Image src={me} />
             <DescriptionContainer>
-              <Title>I'm Joe</Title>
-              <InfoText>I make things and ramble on about them.</InfoText>
+              <Title>Joe Purnell</Title>
+              <InfoText>I make things while looking confused and then ramble about them.</InfoText>
               <Navlink to="/projects" margin="16px 0 16px 0">
-                Projects
+                Check out some of my projects
               </Navlink>
+
             </DescriptionContainer>
           </HeaderBlock>
           <List>
