@@ -35,6 +35,17 @@ module.exports = {
       options: {
         username: 'joepurnell1'
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-goatcounter`,
+      options: {
+        code: 'joepurnell',
+        exclude: [],
+        pageTransitionDelay: 0,
+        head: false,
+        pixel: false,
+        allowLocal: true,
+      },
+    },
   ],
 }
